@@ -46,6 +46,7 @@ jobs:
           from pathlib import Path
           assert len(list(Path('docs/assets').glob('*.svg'))) == 10
           assert Path('docs/index.html').exists()
+          assert Path('docs/demo.html').exists()
           assert not Path('.env.staging').exists()
           assert '.env.*' in Path('.gitignore').read_text()
           assert 'localStorage' not in Path('frontend/src/api/client.js').read_text()

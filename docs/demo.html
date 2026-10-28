@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="FoodBridge AI — fully synthetic interactive demo"><title>FoodBridge AI · Interactive Demo</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f2f8f4;color:#173e32}*{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}button{cursor:pointer}header{background:#063c2f;color:white;padding:17px max(22px,calc((100% - 1140px)/2));display:flex;align-items:center;justify-content:space-between;gap:12px}header strong{font-size:20px}a{color:inherit}header a{font-size:13px;color:#c8f3d8}main{max-width:1150px;margin:auto;padding:30px 18px}.eyebrow{color:#278863;font-size:11px;font-weight:800;letter-spacing:2px}h1{font-size:clamp(30px,5vw,52px);letter-spacing:-2px;margin:10px 0}h2{margin:0 0 7px;letter-spacing:-.5px}.lead{color:#658471;line-height:1.65;max-width:710px}.warning{padding:13px 17px;background:#fff5d9;border:1px solid #efda98;border-radius:12px;font-size:13px;line-height:1.5;margin:20px 0 25px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.metric{background:white;border:1px solid #e1ece3;border-radius:15px;padding:22px}.metric small{display:block;color:#799485;font-size:11px}.metric strong{font-size:31px;display:block;margin:7px 0}.layout{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin-top:18px}.panel{background:white;border:1px solid #e1ece3;border-radius:16px;padding:22px}.controls{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:16px}select,input{border:1px solid #cde2d4;padding:10px;border-radius:9px;background:#fff;max-width:100%}.food{display:flex;gap:15px;justify-content:space-between;align-items:center;border-top:1px solid #e9f0eb;padding:15px 0}.food b{display:block;margin-bottom:6px}.food small{color:#819888}.food .qty{font-weight:800;white-space:nowrap;color:#187957}.pill{border-radius:20px;background:#e3f4e7;color:#247d4c;font-size:11px;font-weight:800;padding:6px 10px;display:inline-block}.pill.review{background:#fce9cc;color:#a36f19}button.primary{padding:11px 17px;border:none;border-radius:9px;background:#10815f;color:white;font-weight:700}button.secondary{padding:11px 17px;border:1px solid #cce5d3;border-radius:9px;color:#26744d;background:#fff;font-weight:700}button:disabled{opacity:.45;cursor:not-allowed}.match{border:1px solid #e6eee6;border-radius:11px;padding:14px;margin-top:12px;font-size:13px}.match b{display:block;margin-bottom:7px}.match small{color:#759385}.explain{font-size:12px;line-height:1.8;color:#6a8775}.panel p{color:#6f8c7b;font-size:13px;line-height:1.5}.panel h3{font-size:15px}.activity{padding:11px 0;border-bottom:1px dashed #d6e7dc;font-size:12px}.activity b{color:#165d42}.cta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}footer{text-align:center;padding:27px;color:#6c8979;font-size:12px}.section-head{display:flex;justify-content:space-between;align-items:center;margin:30px 0 15px}.bar{height:9px;background:#e2eee5;border-radius:20px;overflow:hidden;margin-top:10px}.bar span{display:block;background:#2db184;height:100%}@media(max-width:800px){.metrics{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}header{flex-wrap:wrap}main{padding:20px 15px}.metric{padding:16px}.metric strong{font-size:25px}}
+</style></head><body><header><strong>🌱 FoodBridge AI</strong><a href="./">← Back to portfolio</a></header><main><span class="eyebrow">INTERACTIVE PORTFOLIO PROTOTYPE</span><h1>Rescue potential. Responsibly.</h1><p class="lead">Try food-category filtering, conservative recipient matching and a simulated reservation workflow. Everything here is fictional, local to your browser and resets when you reload.</p><div class="warning"><b>SIMULATION ONLY:</b> No real kitchen, food, NGO, pickup, safety approval or donation is involved. Simulated outcomes must never be reported as community impact.</div><div class="metrics"><div class="metric"><small>Illustrative listed supply</small><strong id="total">—</strong><small>kg, fabricated demo inventory</small></div><div class="metric"><small>Illustrative available stock</small><strong id="available">—</strong><small>kg, simulation only</small></div><div class="metric"><small>Simulated reservations</small><strong id="reserved">0</strong><small>kg, local browser only</small></div><div class="metric"><small>Actual confirmed pickups</small><strong>0</strong><small>None — no real operations</small></div></div><div class="layout"><section class="panel"><div class="controls"><div><h2>Sample surplus listings</h2><p>Five fictional inventory records</p></div><label>Food category <select id="filter"><option value="all">All categories</option><option value="produce">Produce</option><option value="bakery">Bakery</option><option value="grains">Grains</option><option value="prepared">Prepared meals</option></select></label></div><div id="inventory" aria-live="polite"></div><div class="cta"><button class="secondary" id="reset">Reset simulation</button></div></section><section class="panel"><h2>Rule-based matching</h2><p>Select a listing to screen fictional recipients for storage compatibility, category, distance and a demo verification flag. Food-safety acceptance still requires real authorized reviewers.</p><label>Select sample item <select id="item"></select></label><div id="matches"></div><p class="explain"><b>Important:</b> expiry, temperature, labeling, contamination, transport and legal eligibility cannot be established from this synthetic demo.</p><h3>Activity log</h3><div id="activity" aria-live="polite">No simulated reservations.</div></section></div><div class="section-head"><h2>How matching protects stock</h2></div><div class="layout"><section class="panel"><h3>Hard eligibility gates</h3><p>Donor acknowledgment → recipient demonstration verification → storage compatibility → accepted food category → remaining capacity → distance filter → human review.</p><div class="bar"><span style="width:82%"></span></div><p class="explain">Rules are intended to reject risky or ineligible candidates, not certify food safety.</p></section><section class="panel"><h3>Explainable portfolio project</h3><p>Python ETL and forecasting pipeline, SQL persistence, FastAPI operations and a React dashboard are available in the source. This static page contains no secrets and does not call that backend.</p><a href="https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution">Review the GitHub source ↗</a></section></div></main><footer>FoodBridge AI | Synthetic-only browser demonstration | No real food transactions</footer><script>
+(function(){
+"use strict";
+var base=[
+{id:1,name:"Vegetable boxes",partner:"Green Bowl Cafe (Demo)",cat:"produce",kg:42,storage:"chilled",safe:true},
+{id:2,name:"Bread loaves",partner:"City Bakery (Demo)",cat:"bakery",kg:32,storage:"ambient",safe:true},
+{id:3,name:"Rice and pulse packs",partner:"Harvest Market (Demo)",cat:"grains",kg:75,storage:"ambient",safe:true},
+{id:4,name:"Prepared meals",partner:"FreshFork Kitchen (Demo)",cat:"prepared",kg:21,storage:"chilled",safe:false},
+{id:5,name:"Fruit crates",partner:"Sunrise Grocer (Demo)",cat:"produce",kg:54,storage:"ambient",safe:true}
+];
+var recipients=[
+{id:1,name:"Relief Kitchen Beta (Demo)",verified:true,storage:"chilled",cats:["produce","grains","bakery"],capacity:35,km:4.2},
+{id:2,name:"Food Support Gamma (Demo)",verified:true,storage:"chilled",cats:["all"],capacity:18,km:5.1},
+{id:3,name:"Grain Bank Epsilon (Demo)",verified:true,storage:"ambient",cats:["grains","bakery","produce"],capacity:40,km:3.7},
+{id:4,name:"Community Pantry Alpha (Demo)",verified:true,storage:"ambient",cats:["all"],capacity:65,km:9.1},
+{id:5,name:"Neighborhood Aid Delta (Demo)",verified:false,storage:"ambient",cats:["all"],capacity:80,km:2.3}
+];
+var reserved={},events=[];
+var el=id=>document.getElementById(id);
+function number(n){return (Math.round(n*10)/10).toLocaleString("en-IN");}
+function remaining(item){return item.kg-(reserved[item.id]||0);}
+function eligible(item,r){return item.safe&&r.verified&&r.storage===item.storage&&(r.cats.indexOf("all")!==-1||r.cats.indexOf(item.cat)!==-1)&&r.km<=20&&remaining(item)>0;}
+function render(){
+el("total").textContent=number(base.reduce((a,x)=>a+x.kg,0));
+el("available").textContent=number(base.reduce((a,x)=>a+remaining(x),0));
+el("reserved").textContent=number(base.reduce((a,x)=>a+(reserved[x.id]||0),0));
+var category=el("filter").value;
+el("inventory").innerHTML="";
+base.filter(x=>category==="all"||x.cat===category).forEach(function(x){
+var node=document.createElement("div");node.className="food";
+var left=document.createElement("div"),title=document.createElement("b"),caption=document.createElement("small"),pill=document.createElement("span");
+title.textContent=x.name;caption.textContent=x.partner+" · "+x.storage+" · "+x.cat;
+pill.className="pill"+(x.safe?"":" review");pill.textContent=x.safe?"Demo acknowledgment":"Human review needed";
+left.append(title,caption,document.createElement("br"),pill);
+var qty=document.createElement("div");qty.className="qty";qty.textContent=number(remaining(x))+" kg";node.append(left,qty);el("inventory").appendChild(node);
+});
+el("item").innerHTML="";
+base.forEach(function(x){var option=document.createElement("option");option.value=x.id;option.textContent=x.name;el("item").appendChild(option)});
+if(!base.some(x=>x.id===Number(el("item").value)))el("item").value="1";
+renderMatches();renderEvents();
+}
+function renderMatches(){
+var item=base.find(x=>x.id===Number(el("item").value))||base[0];
+var pane=el("matches");pane.innerHTML="";var good=recipients.filter(x=>eligible(item,x));
+if(!good.length){pane.textContent="No rule-eligible candidates. Choose a safely acknowledged item and compatible fictional recipient.";return;}
+good.forEach(function(r){
+var card=document.createElement("div");card.className="match";
+var title=document.createElement("b");title.textContent=r.name;
+var info=document.createElement("small");info.textContent=" · "+r.km+" km straight-line · capacity "+number(r.capacity)+" kg";
+var btn=document.createElement("button");btn.className="primary";btn.textContent="Simulate 5 kg reservation";
+btn.disabled=remaining(item)<5||r.capacity<5;
+btn.addEventListener("click",function(){if(!eligible(item,r)||remaining(item)<5||r.capacity<5)return;reserved[item.id]=(reserved[item.id]||0)+5;events.unshift("5 kg of "+item.name+" reserved in fictional demo for "+r.name+". No real pickup.");var selected=item.id;render();el("item").value=selected;renderMatches()});
+card.append(title,info,document.createElement("br"),document.createElement("br"),btn);pane.appendChild(card);
+});
+}
+function renderEvents(){el("activity").innerHTML="";events.slice(0,5).forEach(function(message){var div=document.createElement("div");div.className="activity";div.textContent=message;el("activity").appendChild(div)});if(!events.length)el("activity").textContent="No simulated reservations.";}
+el("filter").addEventListener("change",render);
+el("item").addEventListener("change",renderMatches);
+el("reset").addEventListener("click",function(){reserved={};events=[];render()});
+render();
+})();
+</script></body></html>

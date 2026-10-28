@@ -126,6 +126,8 @@ The `X-API-Key` option gates write operations if configured. It is **not suffici
 
 ## Portfolio static hosting
 
+The public static bundle contains [an interactive synthetic demonstration](docs/demo.html) where visitors can filter fictional inventory and simulate reservations without a backend, personal data, or actual donations. It is explicitly *not* the production React/FastAPI app.
+
 A Pages-ready landing page is included at [docs/index.html](docs/index.html). To publish it publicly, configure **Settings → Pages → Deploy from a branch → main /docs** in GitHub. GitHub Pages must be enabled by the repository owner; no live URL is claimed here.
 
 ## Documentation & portfolio
