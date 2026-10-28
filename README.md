@@ -130,6 +130,10 @@ GET  /api/v1/forecast/preview
 
 The `X-API-Key` option gates write operations if configured. It is **not sufficient production authentication** and should never be treated as tenant-level user management.
 
+## Responsible release status
+
+[Launch-readiness status page](docs/launch-readiness.html) clearly separates tested source code, Pages activation, the synthetic interactive demo, and unavailable real-world operating permissions. Static link/asset validation now runs in CI. Neither GitHub Actions nor a portfolio preview certifies real-food safety.
+
 ## Portfolio static hosting
 
 The public static bundle contains [an interactive synthetic demonstration](docs/demo.html) where visitors can filter fictional inventory and simulate reservations without a backend, personal data, or actual donations. It is explicitly *not* the production React/FastAPI app.

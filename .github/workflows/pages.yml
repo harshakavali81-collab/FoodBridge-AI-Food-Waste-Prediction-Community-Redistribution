@@ -21,6 +21,7 @@ jobs:
           mkdir -p public/assets
           cp docs/index.html public/index.html
           cp docs/demo.html public/demo.html
+          cp docs/launch-readiness.html public/launch-readiness.html
           cp docs/assets/*.svg public/assets/
           printf '' > public/.nojekyll
           python - <<'PY'
@@ -28,6 +29,7 @@ jobs:
           page = Path("public/index.html").read_text()
           assert '<html' in page and 'assets/' in page
           assert Path('public/demo.html').exists()
+          assert Path('public/launch-readiness.html').exists()
           for asset in Path('public/assets').glob('*.svg'):
               assert asset.stat().st_size > 100
           assert len(list(Path('public/assets').glob('*.svg'))) == 10
