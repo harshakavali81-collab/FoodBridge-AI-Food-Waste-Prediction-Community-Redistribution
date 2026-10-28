@@ -38,3 +38,7 @@ Use a genuine organization-controlled identity provider for real identity verifi
 4. Independently verify donor/recipient legal status, food handling, temperature equipment and compliance obligations. Obtain a trained domain expert's written approval.
 5. Establish authentic human pickup confirmations and a recall/complaint escalation process.
 6. Obtain an actual signed pilot agreement and assign responsible operations staff; never infer permission from a software checklist.
+
+## PostgreSQL verification
+
+A disposable PostgreSQL 17 service is provisioned in GitHub Actions. CI applies Alembic revisions, verifies the table/foreign-key structure, confirms cross-tenant uniqueness for mock reviews, re-runs schema setup, and destroys the isolated runner afterward. This does **not** prove production row-level security, secure real user accounts, backups, a public database, or a deployed food service.

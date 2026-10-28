@@ -54,3 +54,40 @@ jobs:
           assert Path('SECURITY.md').exists()
           print("Static and repository safety checks passed")
           PY
+  postgres-integration:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_DB: foodbridge_test
+          POSTGRES_USER: fb_test
+          POSTGRES_PASSWORD: local_test_password
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U fb_test -d foodbridge_test"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      APP_ENV: production
+      SEED_DEMO_DATA: 'false'
+      ENABLE_REAL_OPERATIONS: 'false'
+      DATABASE_URL: postgresql+psycopg://fb_test:local_test_password@localhost:5432/foodbridge_test
+      FOODBRIDGE_TEST_POSTGRES_URL: postgresql+psycopg://fb_test:local_test_password@localhost:5432/foodbridge_test
+      API_KEY: GitHubActionsDisposableTestKeyNotForAnyRealDeployment
+      CORS_ORIGINS: ''
+      PYTHONPATH: '.:src'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12', cache: 'pip' }
+      - run: pip install -r requirements.txt
+      - name: Validate the fail-closed internal staging configuration
+        run: python scripts/check_deployment.py
+      - name: Apply both Alembic migrations to disposable PostgreSQL
+        run: python scripts/init_schema_for_staging.py
+      - name: Validate schema and tenant-scoped review constraint on PostgreSQL
+        run: python -m pytest tests/test_postgres_integration.py -q
+      - name: Verify migration is idempotent
+        run: python scripts/init_schema_for_staging.py
