@@ -9,8 +9,10 @@ from backend.app.db.models import Inventory,Recipient,Donation
 router=APIRouter(tags=["analytics"])
 CSV=Path(__file__).resolve().parents[3]/"data"/"synthetic"/"daily_operations.csv"
 def history():
+    if not CSV.exists():
+        return []
     with CSV.open(newline="") as f:
-        return list(csv.DictReader(f)) if CSV.exists() else []
+        return list(csv.DictReader(f))
 @router.get("/dashboard")
 def dashboard(db:Session=Depends(get_db)):
     items=db.query(Inventory).all();donations=db.query(Donation).all()

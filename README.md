@@ -9,6 +9,8 @@
 > [!IMPORTANT]
 > **Educational portfolio prototype, not a live food donation service.** Sample partners and historical records are fictional. No real food is being supplied, no food-safety determination is automated and no avoided-waste / meals-served impact is independently verified. Predictions are not physical inventory; any donation requires authorized human review and confirmation.
 
+[![CI](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/workflows/ci.yml/badge.svg)](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/workflows/ci.yml)
+
 ## What is FoodBridge AI?
 A portfolio-ready local application for understanding possible food surplus, recording actually available inventory, screening potential recipient organizations, reserving stock safely, and tracking confirmations separately from forecasts and reservations.
 
@@ -20,7 +22,7 @@ A portfolio-ready local application for understanding possible food surplus, rec
 | Smart matching | Rule-based hard gates with candidate ranking by approximate proximity |
 | Donation tracking | Atomic stock allocation, cancellation and explicit confirmation |
 | ML & analytics | Time-aware random forest vs seasonal-naive baseline; synthetic dataset and Power BI guide |
-| Engineering | API docs, 12 local test cases, Docker, GitHub Actions, 10 original SVG assets |
+| Engineering | API docs, 11 passing automated tests, Docker, GitHub Actions, 10 original SVG assets |
 
 ## Visual project tour — 10 original diagrams & charts
 
@@ -36,7 +38,7 @@ A portfolio-ready local application for understanding possible food surplus, rec
 | Responsible impact accounting | Banner |
 | ![Funnel](docs/assets/10-impact-funnel.svg) | ![Banner](docs/assets/01-hero-banner.svg) |
 
-The model comparison image illustrates an evaluation result from the original synthetic-data experiment; regenerate metrics for the current dataset before quoting them. These pictures are illustrations, not verified real-world donations.
+The model comparison image rounds the verified synthetic-data evaluation (Random Forest 3.908 kg MAE versus lag-7 baseline 5.49 kg MAE); these figures do not generalize to live food operations. These pictures are illustrations, not verified real-world donations.
 
 ## Run locally — Docker (recommended)
 ```bash
@@ -122,12 +124,16 @@ GET  /api/v1/forecast/preview
 
 The `X-API-Key` option gates write operations if configured. It is **not sufficient production authentication** and should never be treated as tenant-level user management.
 
+## Portfolio static hosting
+
+A Pages-ready landing page is included at [docs/index.html](docs/index.html). To publish it publicly, configure **Settings → Pages → Deploy from a branch → main /docs** in GitHub. GitHub Pages must be enabled by the repository owner; no live URL is claimed here.
+
 ## Documentation & portfolio
 [Portfolio case study](portfolio/index.html) · [Architecture/ERD](docs/ARCHITECTURE.md) · [Project workflow](docs/PROJECT_WORKFLOW.md) · [Data dictionary](docs/DATA_DICTIONARY.md) · [Safety/limitations](docs/SAFETY_AND_LIMITATIONS.md) · [Deployment checklist](docs/DEPLOYMENT.md) · [Power BI](powerbi/README.md)
 
 **Research source:** [FAO Food Loss and Waste Database](https://www.fao.org/platform-food-loss-waste/flw-data) is a source of published studies, **not** live donor inventory.
 
-**Implementation status:** Local Python tests were run on the reference implementation. CI must pass on this published repository to confirm the pushed source. A live public site and real partner integrations are **not deployed**.
+**Verified GitHub CI (2026-10-28):** Backend 11 tests passed, forecasting training/evaluation completed on synthetic data, and React production build succeeded. Latest workflow: [GitHub Actions run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40645595727). A live public site and real partner integrations are **not deployed**.
 
 ---
 Developed as an AI / ML, Python, SQL and full-stack portfolio project · © 2026 · MIT License.
