@@ -4,16 +4,18 @@ This repository deliberately separates a **public informational portfolio websit
 
 ## A. GitHub Pages public portfolio
 
-A verified GitHub Actions workflow is in `.github/workflows/pages.yml`. On changes to `docs/`, it uploads ONLY `docs/index.html` and the 10 original SVG visuals. It does not upload .env, partner records, model artifacts or backend sources to the website.
+A verified GitHub Actions workflow is in `.github/workflows/pages.yml`. On changes to `docs/`, it packages the static `docs/index.html`, `docs/demo.html`, `docs/launch-readiness.html` and the 10 original SVG visuals. It does not upload .env, partner records, model artifacts or backend sources to the website.
 
-### One-time owner action
-1. Open [Repository Settings → Pages](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/settings/pages).
-2. Select **Build and deployment → Source: GitHub Actions**.
-3. Run **Actions → Deploy portfolio website → Run workflow** if required.
-4. Verify the returned URL with `curl -I` or your browser and check that diagrams load.
-5. If the action fails before this setting exists, the connected GitHub app cannot grant itself additional Pages administrative permissions.
+### Portfolio publication (GitHub-reported success: 2026-10-28)
+The repository owner enabled Pages and [the explicit deployment workflow succeeded on retry](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780305).
 
-**Do not claim the website is live until the deployment job succeeds and the URL returns HTTP 200.**
+- GitHub-reported public URL: [FoodBridge AI](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/)
+- Interactive browser-only simulation: [demo.html](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/demo.html)
+- Launch readiness: [launch-readiness.html](https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/launch-readiness.html)
+- Future changes to `docs/` automatically trigger the custom deployment workflow.
+- To independently verify from a machine with network access, use `curl -IL 'https://harshakavali81-collab.github.io/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/'` and test the demo, images and readiness page in desktop/mobile browsers. This execution environment could not make a direct HTTP request to the public domain; GitHub's successful deployment log is the verification source.
+
+The public URL is only a static showcase and is not the production backend.
 
 ## B. Internal server-side staging using PostgreSQL
 
