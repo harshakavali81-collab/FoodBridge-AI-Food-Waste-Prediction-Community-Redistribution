@@ -1,0 +1,3 @@
+import React from "react";
+import {Head,Pill,Empty} from "../components/UI";
+export default function Recipients({recipients=[]}){return <><Head label="COMMUNITY NETWORK" title="Recipient organizations" description="These demo names and verification flags are fictional."/><div className="cards">{recipients.map(x=><div className="panel recipient-card" key={x.id}><Pill tone={x.verified?"green":"amber"}>{x.verified?"Verified demo record":"Review needed"}</Pill><h3>{x.name}</h3><p>{x.capacity_kg} kg capacity · {x.storage_type} storage</p><p>Accepts: {x.accepts_categories}</p><small>📍 {x.latitude.toFixed(3)}, {x.longitude.toFixed(3)}</small></div>)}</div>{recipients.length===0&&<Empty/>}</>}
