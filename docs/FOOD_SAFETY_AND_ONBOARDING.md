@@ -27,3 +27,7 @@ For an India-based pilot, use the official FSSAI **Food Safety and Standards (Re
 The application's hard gates are **screening aids only**. They cannot test for bacterial contamination, perform lab inspection, decide medical suitability or satisfy legal recordkeeping without a separate verified workflow.
 
 No real donor, NGO, redistribution success, compliance certification or approved pickup is claimed here.
+
+## Primary food-law reference
+
+Review the official [FSSAI Food Safety and Standards (Recovery and Distribution of Surplus Food) Regulations, 2019](https://www.fssai.gov.in/upload/uploadfiles/files/Gazette_Notification_Surplus_Food_06_08_2019.pdf) and current amendments or applicable requirements with a qualified compliance professional. The rules address safe surplus food, handling, hygiene, packaging, transport, storage, expiry and responsibilities of food donors and distribution organizations. **Compliance has not been assessed or approved for this project.**

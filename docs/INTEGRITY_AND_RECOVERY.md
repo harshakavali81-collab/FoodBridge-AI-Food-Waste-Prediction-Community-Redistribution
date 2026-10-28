@@ -32,3 +32,7 @@ A successful CI restore is **not a production recovery plan**. Actual service re
 - The operational inventory and donation tables are not yet tenant-isolated.
 - The signed JWT pilot-review workflow is simulation-only and does not authorize real partners.
 - No real donor, food handling approval or impact metric is asserted.
+
+## Verified CI outcome (28 October 2026)
+
+The [GitHub Actions workflow run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40658684884) succeeded. The Python suite passed **52 tests** (3 PostgreSQL-only tests are skipped in the SQLite runner); the isolated PostgreSQL job passed its 3 database tests, then confirmed a `pg_dump`/`pg_restore` cycle preserved five application tables and the Alembic revision. This is a **disposable, synthetic-only** recovery rehearsal, not an approved or scheduled production backup service.
