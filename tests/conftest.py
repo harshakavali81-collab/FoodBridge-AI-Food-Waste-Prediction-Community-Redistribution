@@ -3,6 +3,7 @@ import os
 os.environ["SEED_DEMO_DATA"]="false"
 os.environ["APP_ENV"]="development"
 os.environ["API_KEY"]=""
+os.environ["DEMO_ADMIN_KEY"]="local-demo-only-administrator-key-123456"
 os.environ["DATABASE_URL"]="sqlite://"
 import pytest
 from fastapi.testclient import TestClient

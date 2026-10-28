@@ -4,12 +4,15 @@ def inventory(**kw):
     v=dict(partner_name="Demo Kitchen",food_name="Wheat rolls",category="bakery",quantity_kg=20,storage_type="ambient",allergen_info="Wheat",food_safety_confirmed=True,safety_notes="Donor human reviewed",expires_at=(t+timedelta(days=2)).isoformat(),pickup_by=(t+timedelta(days=1)).isoformat(),latitude=17.4,longitude=78.47)
     v.update(kw);return v
 def recipient(**kw):
-    v=dict(name="Aid Demo",verified=True,capacity_kg=15,accepts_categories="bakery",storage_type="ambient",latitude=17.41,longitude=78.48)
+    v=dict(name="Aid Demo",verified=False,capacity_kg=15,accepts_categories="bakery",storage_type="ambient",latitude=17.41,longitude=78.48)
     v.update(kw);return v
 def seed_pair(c):
     a=c.post("/api/v1/inventory",json=inventory());b=c.post("/api/v1/recipients",json=recipient())
     assert a.status_code==201 and b.status_code==201
-    return a.json()["id"],b.json()["id"]
+    r_id=b.json()["id"]
+    check=c.post(f"/api/v1/recipients/{r_id}/verify-demo",headers={"X-Demo-Admin-Key":"local-demo-only-administrator-key-123456"})
+    assert check.status_code==200,check.text
+    return a.json()["id"],r_id
 def test_health(client):
     assert client.get("/api/v1/health").json()["status"]=="ok"
     assert client.get("/api/v1/dashboard").json()["confirmed_collected_kg"]==0

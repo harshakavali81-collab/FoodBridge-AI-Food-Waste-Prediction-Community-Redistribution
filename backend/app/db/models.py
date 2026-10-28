@@ -45,3 +45,14 @@ class Donation(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     collected_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     demo: Mapped[bool] = mapped_column(Boolean, default=False)
+
+class AuditEvent(Base):
+    """Development event summary, not an immutable signed compliance record."""
+    __tablename__ = "audit_events"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    event_type: Mapped[str] = mapped_column(String(64), index=True)
+    entity_type: Mapped[str] = mapped_column(String(64))
+    entity_id: Mapped[int] = mapped_column(Integer)
+    quantity_kg: Mapped[float | None] = mapped_column(Float, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    demo: Mapped[bool] = mapped_column(Boolean, default=True)

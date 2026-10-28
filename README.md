@@ -18,9 +18,9 @@ A portfolio-ready local application for understanding possible food surplus, rec
 |---|---|
 | Dashboard | Available, reserved, confirmed-collected kilograms + synthetic trends |
 | Donor inventory | Items, quantities, allergens, storage, pickup deadlines and donor safety acknowledgment |
-| Recipients | Demo capacity, category, cold-chain compatibility, distance and verification flag |
+| Recipients | Demo capacity, category, cold-chain compatibility, distance and separate demo-only verification; API users cannot self-verify |
 | Smart matching | Rule-based hard gates with candidate ranking by approximate proximity |
-| Donation tracking | Atomic stock allocation, cancellation and explicit confirmation |
+| Donation tracking | Atomic inventory allocation, recipient capacity locks, cancellation and explicit confirmation |
 | ML & analytics | Time-aware random forest vs seasonal-naive baseline; synthetic dataset and Power BI guide |
 | Engineering | API docs, 22 passing automated tests, Docker, GitHub Actions, 10 original SVG assets |
 
@@ -104,6 +104,10 @@ FoodBridge AI/
 ├── powerbi/              Report blueprint + DAX
 └── .github/workflows/    Backend and frontend CI
 ```
+
+## Demo reservation integrity and event log
+
+Cross-listing recipient reservations are capacity-checked under a recipient write lock, and donation cancellations/confirmations are conditional state transitions. New recipients cannot self-verify; a local administrator can mark only fictional recipients using an explicit `DEMO_ADMIN_KEY` (not a production certification). A non-immutable educational event log is available at `GET /api/v1/audit`. See [reservation integrity design](docs/RESERVATION_INTEGRITY.md).
 
 ## API highlights
 ```text
