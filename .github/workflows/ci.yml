@@ -17,6 +17,14 @@ jobs:
         env: { PYTHONPATH: '.:src' }
       - run: python -m foodbridge.forecasting.train --data data/synthetic/daily_operations.csv --output models
         env: { PYTHONPATH: '.:src' }
+      - name: Validate fake production config fails closed
+        env:
+          APP_ENV: production
+          SEED_DEMO_DATA: 'false'
+          DATABASE_URL: postgresql+psycopg://local:dev@localhost:5432/foodbridge
+          API_KEY: ThisIsOnlyATestConfigurationKeyNotForUse
+          CORS_ORIGINS: ''
+        run: PYTHONPATH=.:src python scripts/check_deployment.py
   frontend:
     runs-on: ubuntu-latest
     defaults:
@@ -28,3 +36,19 @@ jobs:
         with: { node-version: '22' }
       - run: npm install --no-audit --no-fund
       - run: npm run build
+  static-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Pages assets and ignore rules
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          assert len(list(Path('docs/assets').glob('*.svg'))) == 10
+          assert Path('docs/index.html').exists()
+          assert not Path('.env.staging').exists()
+          assert '.env.*' in Path('.gitignore').read_text()
+          assert 'localStorage' not in Path('frontend/src/api/client.js').read_text()
+          assert Path('SECURITY.md').exists()
+          print("Static and repository safety checks passed")
+          PY

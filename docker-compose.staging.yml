@@ -1,5 +1,4 @@
-# Internal API-only staging, intentionally NOT a public operational release.
-# Start: docker compose --env-file .env.staging -f docker-compose.staging.yml up --build
+# Closed internal API-only staging; operational writes are disabled by code.
 services:
   db:
     image: postgres:17-alpine
@@ -16,9 +15,14 @@ services:
       timeout: 3s
       retries: 10
     networks: [internal]
+    security_opt: [no-new-privileges:true]
   api:
-    build: {context: ., dockerfile: Dockerfile.api}
+    build: {context: ., dockerfile: Dockerfile.staging}
     restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
     environment:
       APP_ENV: production
       SEED_DEMO_DATA: "false"
