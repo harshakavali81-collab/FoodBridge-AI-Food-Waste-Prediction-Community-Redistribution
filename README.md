@@ -111,6 +111,10 @@ Cross-listing recipient reservations are capacity-checked under a recipient writ
 
 **Latest CI:** The repository's reservation, capacity, demo-verification and audit checks now raise the Python test count to **32 passed**, with frontend and static asset jobs passing. [Verified GitHub run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399). The API treats new local listings as demo records; simulated pickup counts are not real donations.
 
+## Reproducible database migrations
+
+An Alembic initial revision now provisions the four demo tables in a new database. GitHub CI tests fresh schema creation, reapplying the migration and rollback using disposable SQLite files. This is not a migration of an existing partner database or an independently validated PostgreSQL installation. See [Database migrations](docs/DATABASE_MIGRATIONS.md).
+
 ## API highlights
 ```text
 GET  /api/v1/health

@@ -15,7 +15,7 @@
 - Immutable audit trails, secure document storage, recall/complaint process and traceability review.
 - GDPR/DPDP applicability review, data retention, deletion and breach escalation.
 - CI dependency vulnerability handling, CI supply-chain pinning and independently tested backup restoration.
-- Schema migrations, high availability, public HTTPS, managed observability and SLOs.
+- Alembic initial schema creation is now tested on disposable SQLite, but PostgreSQL migration behavior, ongoing real-data schema upgrades, high availability, public HTTPS, managed observability and SLOs remain unverified.
 - Independent external model validation using reliable real operational history.
 
 ## Explicit threat boundaries

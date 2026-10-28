@@ -39,7 +39,7 @@ curl -fsS http://127.0.0.1:8000/api/v1/ready
 
 The public Pages artifact also includes `launch-readiness.html` with dated deployment/safety disclosures and `demo.html`, whose interactions are entirely browser-local. CI verifies links and the 10 SVG assets.
 
-The `scripts/init_schema_for_staging.py` bootstrap is suitable for a **fresh empty, isolated staging database only**. Later schema evolution requires Alembic migrations and reviewed changes. The PostgreSQL container uses a persistent volume, unexposed DB port, dedicated internal network and container health checks; API is bound to localhost.
+The `scripts/init_schema_for_staging.py` now runs the reviewed Alembic initial revision on a **fresh empty, isolated PostgreSQL staging database only**. See [migration documentation](DATABASE_MIGRATIONS.md). Subsequent schema evolution and real-data upgrades still require review and backup/restore verification. The PostgreSQL container uses a persistent volume, unexposed DB port, dedicated internal network and container health checks; API is bound to localhost.
 
 Never configure a public frontend with the shared API key. The React UI remains a **local educational demo only** and uses no privileged browser-stored credentials.
 
