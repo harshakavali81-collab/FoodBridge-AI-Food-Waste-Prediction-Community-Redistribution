@@ -22,7 +22,7 @@ A portfolio-ready local application for understanding possible food surplus, rec
 | Smart matching | Rule-based hard gates with candidate ranking by approximate proximity |
 | Donation tracking | Atomic inventory allocation, recipient capacity locks, cancellation and explicit confirmation |
 | ML & analytics | Time-aware random forest vs seasonal-naive baseline; synthetic dataset and Power BI guide |
-| Engineering | API docs, 27 passing automated tests, Docker, GitHub Actions, 10 original SVG assets |
+| Engineering | API docs, 32 passing automated tests, Docker, GitHub Actions, 10 original SVG assets |
 
 ## Visual project tour — 10 original diagrams & charts
 
@@ -109,7 +109,7 @@ FoodBridge AI/
 
 Cross-listing recipient reservations are capacity-checked under a recipient write lock, and donation cancellations/confirmations are conditional state transitions. New recipients cannot self-verify; a local administrator can mark only fictional recipients using an explicit `DEMO_ADMIN_KEY` (not a production certification). A non-immutable educational event log is available at `GET /api/v1/audit`. See [reservation integrity design](docs/RESERVATION_INTEGRITY.md).
 
-**Latest CI:** The repository's reservation, capacity, demo-verification and audit checks now raise the Python test count to **27 passed**, with frontend and static asset jobs passing. [Verified GitHub run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40647901032). The API treats new local listings as demo records; simulated pickup counts are not real donations.
+**Latest CI:** The repository's reservation, capacity, demo-verification and audit checks now raise the Python test count to **32 passed**, with frontend and static asset jobs passing. [Verified GitHub run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399). The API treats new local listings as demo records; simulated pickup counts are not real donations.
 
 ## API highlights
 ```text
@@ -132,7 +132,7 @@ The `X-API-Key` option gates write operations if configured. It is **not suffici
 
 ## Responsible release status
 
-[Launch-readiness status page](docs/launch-readiness.html) clearly separates tested source code, Pages activation, the synthetic interactive demo, and unavailable real-world operating permissions. Static link/asset validation now runs in CI. Neither GitHub Actions nor a portfolio preview certifies real-food safety.
+[Launch-readiness status page](docs/launch-readiness.html) clearly separates tested source code, Pages activation, the synthetic interactive demo, and unavailable real-world operating permissions. Static link/asset validation now runs in CI. The [latest 32-test CI run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399) passed; the [Pages deployment run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780305) failed with 404 because Pages must first be enabled by the repository owner. Neither GitHub Actions nor a portfolio preview certifies real-food safety.
 
 ## Portfolio static hosting
 
@@ -149,7 +149,7 @@ This repository also includes a **PostgreSQL API-only staging configuration**. I
 
 **Research source:** [FAO Food Loss and Waste Database](https://www.fao.org/platform-food-loss-waste/flw-data) is a source of published studies, **not** live donor inventory.
 
-**Verified GitHub CI (2026-10-28):** 27 backend tests passed, model training/evaluation completed on synthetic data (MAE 3.908 kg vs 5.49 kg lag-7), static asset checks succeeded, and React production build succeeded. [Verified run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40646825854). GitHub Pages and an actual public backend are **not deployed**, and no real partners or food safety operations have been verified.
+**Verified GitHub CI (2026-10-28):** 32 backend tests passed, model training/evaluation completed on synthetic data (MAE 3.908 kg vs 5.49 kg lag-7), static asset checks succeeded, and React production build succeeded. [Verified run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40648780399). GitHub Pages and an actual public backend are **not deployed**, and no real partners or food safety operations have been verified.
 
 ---
 Developed as an AI / ML, Python, SQL and full-stack portfolio project · © 2026 · MIT License.
