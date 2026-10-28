@@ -125,6 +125,10 @@ FoodBridge AI now appears as a highlighted project and searchable Full Stack car
 
 CI on the source repository passed **34 Python tests** with a successful React build and pages deployment on 28 October 2026. Public site showcases remain synthetic and educational; real food redistribution is not certified.
 
+## Cryptographically signed, tenant-scoped pilot review sandbox
+
+The repository includes RS256 JWT signature/issuer/audience/expiry validation, RBAC for reviewer/admin/auditor/operator, tenant-isolated **mock review records**, eight evidence checklist items, and a simulation-only pilot decision requiring two distinct reviewers. The decision never authorizes a real food distribution. Production writes remain disabled and operational inventory remains unscoped demo data. See [Identity and pilot readiness](docs/IDENTITY_AND_PILOT_REVIEWS.md).
+
 ## API highlights
 ```text
 GET  /api/v1/health

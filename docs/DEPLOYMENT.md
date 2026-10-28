@@ -43,6 +43,10 @@ The `scripts/init_schema_for_staging.py` now runs the reviewed Alembic initial r
 
 Never configure a public frontend with the shared API key. The React UI remains a **local educational demo only** and uses no privileged browser-stored credentials.
 
+## Authenticated demonstration of independent review gates
+
+An RS256 JWT identity verifier with issuer/audience/time validation and a tenant-scoped **mock partner-review checklist** are now implemented for internal testing. See [Identity and pilot reviews](IDENTITY_AND_PILOT_REVIEWS.md). Authentic users require an external identity provider; production writes remain disabled, and operational inventory is not tenant scoped.
+
 ## Production release gates
 
 1. Independently verify donor and recipient registration, formal consent, authority to collect, trained handlers and distribution operations.

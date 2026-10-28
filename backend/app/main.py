@@ -8,7 +8,7 @@ from sqlalchemy import text
 from .db.database import Base,engine,SessionLocal
 from .db import models  # noqa: F401
 from .db.seed import seed_demo
-from .routes import inventory,recipients,donations,analytics,audit
+from .routes import inventory,recipients,donations,analytics,audit,pilot
 from .security import production_mode,validate_deployment_config,valid_service_key
 
 @asynccontextmanager
@@ -60,5 +60,5 @@ def ready():
     except Exception:
         return JSONResponse(status_code=503,content={"status":"not_ready"})
 
-for router in (inventory.router,recipients.router,donations.router,analytics.router,audit.router):
+for router in (inventory.router,recipients.router,donations.router,analytics.router,audit.router,pilot.router):
     app.include_router(router,prefix="/api/v1")

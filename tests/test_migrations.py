@@ -20,14 +20,14 @@ def test_migrate_fresh_database_and_idempotent_reapply(tmp_path,monkeypatch):
     engine=create_engine(url)
     actual=set(inspect(engine).get_table_names())
     required=set(Base.metadata.tables)
-    assert required=={"inventory","recipients","donations","audit_events"}
+    assert required=={"inventory","recipients","donations","audit_events","pilot_reviews"}
     assert required <= actual
     for table in Base.metadata.sorted_tables:
         real_cols={col["name"] for col in inspect(engine).get_columns(table.name)}
         assert set(table.columns.keys())==real_cols,table.name
     with engine.connect() as connection:
         version=connection.execute(text("SELECT version_num FROM alembic_version")).scalar()
-    assert version=="20261028_01"
+    assert version=="20261028_02"
     engine.dispose()
     command.upgrade(cfg,"head")
     engine=create_engine(url)

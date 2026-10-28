@@ -56,3 +56,17 @@ class AuditEvent(Base):
     quantity_kg: Mapped[float | None] = mapped_column(Float, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     demo: Mapped[bool] = mapped_column(Boolean, default=True)
+
+from sqlalchemy import UniqueConstraint
+
+class PilotReview(Base):
+    """Per-tenant mock review metadata; no actual FSSAI documents or PII."""
+    __tablename__="pilot_reviews"
+    __table_args__=(UniqueConstraint("tenant_id","check_key",name="uq_pilot_review_tenant_check"),)
+    id: Mapped[int] = mapped_column(Integer,primary_key=True)
+    tenant_id: Mapped[str] = mapped_column(String(64),nullable=False,index=True)
+    check_key: Mapped[str] = mapped_column(String(60),nullable=False)
+    status: Mapped[str] = mapped_column(String(30),nullable=False)
+    evidence_ref: Mapped[str] = mapped_column(String(85),nullable=False)
+    reviewed_by: Mapped[str] = mapped_column(String(128),nullable=False)
+    reviewed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True),default=utcnow,nullable=False)

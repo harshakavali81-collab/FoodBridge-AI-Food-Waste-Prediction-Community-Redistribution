@@ -24,3 +24,7 @@ Do not reuse the demo's API key as user login; it is only an internal service se
 Incident response before real deployment must define owner, intake address, classification and response timetable.
 
 For confidential vulnerability reports, use GitHub's private vulnerability reporting if enabled, or contact the repository maintainer through a secure private channel. Do not open public issues containing security details.
+
+## Additional cryptographic identity demo (2026-10-28)
+
+A non-operational, tenant-scoped review sandbox validates RS256 JWT signatures and issuer/audience/time claims, enforces demo roles and tenant scoping on `pilot_reviews`, and requires two distinct reviewers for an all-checks-complete simulation. See [identity and pilot reviews](IDENTITY_AND_PILOT_REVIEWS.md). Production writes remain disabled, and legacy inventory/donation tables are **not tenant-scoped**. Token validation alone does not constitute a production identity system.
