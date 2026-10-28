@@ -22,7 +22,7 @@ A portfolio-ready local application for understanding possible food surplus, rec
 | Smart matching | Rule-based hard gates with candidate ranking by approximate proximity |
 | Donation tracking | Atomic stock allocation, cancellation and explicit confirmation |
 | ML & analytics | Time-aware random forest vs seasonal-naive baseline; synthetic dataset and Power BI guide |
-| Engineering | API docs, 11 passing automated tests, Docker, GitHub Actions, 10 original SVG assets |
+| Engineering | API docs, 22 passing automated tests, Docker, GitHub Actions, 10 original SVG assets |
 
 ## Visual project tour — 10 original diagrams & charts
 
@@ -128,14 +128,18 @@ The `X-API-Key` option gates write operations if configured. It is **not suffici
 
 The public static bundle contains [an interactive synthetic demonstration](docs/demo.html) where visitors can filter fictional inventory and simulate reservations without a backend, personal data, or actual donations. It is explicitly *not* the production React/FastAPI app.
 
-A Pages-ready landing page is included at [docs/index.html](docs/index.html). To publish it publicly, configure **Settings → Pages → Deploy from a branch → main /docs** in GitHub. GitHub Pages must be enabled by the repository owner; no live URL is claimed here.
+A Pages-ready landing page is included at [docs/index.html](docs/index.html). The automated workflow packages the portfolio and interactive demo. **One-time owner action:** [Settings → Pages](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/settings/pages) → **Build and deployment → Source: GitHub Actions**; then rerun the [Deploy portfolio website workflow](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/workflows/pages.yml). GitHub currently returns 404 for the deployment because Pages has not been enabled; no live URL is claimed.
+
+## Closed, hardened staging environment
+
+This repository also includes a **PostgreSQL API-only staging configuration**. In `APP_ENV=production`, it rejects operational writes even with a service key; reads require a strong server-only key, no demo records are seeded, and startup checks reject unsafe settings. The local React demo is NOT public production authentication. See [deployment commands and remaining release gates](docs/DEPLOYMENT.md), [security readiness](docs/SECURITY_READINESS.md), and [human partner/food-safety onboarding](docs/FOOD_SAFETY_AND_ONBOARDING.md).
 
 ## Documentation & portfolio
 [Portfolio case study](portfolio/index.html) · [Architecture/ERD](docs/ARCHITECTURE.md) · [Project workflow](docs/PROJECT_WORKFLOW.md) · [Data dictionary](docs/DATA_DICTIONARY.md) · [Safety/limitations](docs/SAFETY_AND_LIMITATIONS.md) · [Deployment checklist](docs/DEPLOYMENT.md) · [Power BI](powerbi/README.md)
 
 **Research source:** [FAO Food Loss and Waste Database](https://www.fao.org/platform-food-loss-waste/flw-data) is a source of published studies, **not** live donor inventory.
 
-**Verified GitHub CI (2026-10-28):** Backend 11 tests passed, forecasting training/evaluation completed on synthetic data, and React production build succeeded. Latest workflow: [GitHub Actions run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40645595727). A live public site and real partner integrations are **not deployed**.
+**Verified GitHub CI (2026-10-28):** 22 backend tests passed, model training/evaluation completed on synthetic data (MAE 3.908 kg vs 5.49 kg lag-7), static asset checks succeeded, and React production build succeeded. [Verified run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40646825854). GitHub Pages and an actual public backend are **not deployed**, and no real partners or food safety operations have been verified.
 
 ---
 Developed as an AI / ML, Python, SQL and full-stack portfolio project · © 2026 · MIT License.
