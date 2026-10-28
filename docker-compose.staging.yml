@@ -1,0 +1,43 @@
+# Internal API-only staging, intentionally NOT a public operational release.
+# Start: docker compose --env-file .env.staging -f docker-compose.staging.yml up --build
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: foodbridge
+      POSTGRES_USER: foodbridge
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set PostgreSQL password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U foodbridge -d foodbridge"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    networks: [internal]
+  api:
+    build: {context: ., dockerfile: Dockerfile.api}
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      SEED_DEMO_DATA: "false"
+      ENABLE_REAL_OPERATIONS: "false"
+      DATABASE_URL: postgresql+psycopg://foodbridge:${POSTGRES_PASSWORD:?Set PostgreSQL password}@db:5432/foodbridge
+      API_KEY: ${API_KEY:?Set 32+ random secret}
+      CORS_ORIGINS: ""
+    depends_on:
+      db: {condition: service_healthy}
+    ports:
+      - "127.0.0.1:8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/api/v1/ready')"]
+      interval: 30s
+      timeout: 4s
+      retries: 4
+    networks: [internal]
+volumes:
+  postgres_data:
+networks:
+  internal:
+    driver: bridge

@@ -1,0 +1,48 @@
+name: Deploy portfolio website
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build standalone static portfolio artifact
+        run: |
+          mkdir -p public/assets
+          cp docs/index.html public/index.html
+          cp docs/assets/*.svg public/assets/
+          printf '' > public/.nojekyll
+          python - <<'PY'
+          from pathlib import Path
+          page = Path("public/index.html").read_text()
+          assert '<html' in page and 'assets/' in page
+          for asset in Path('public/assets').glob('*.svg'):
+              assert asset.stat().st_size > 100
+          assert len(list(Path('public/assets').glob('*.svg'))) == 10
+          PY
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
