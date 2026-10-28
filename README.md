@@ -136,6 +136,12 @@ The repository includes RS256 JWT signature/issuer/audience/expiry validation, R
 - The PostgreSQL checks confirm Alembic schema migration, donation foreign keys, mock review uniqueness per tenant and safe repeat migrations on an **empty disposable database**.
 - These results do **not** establish real-world food handling, independent charity identity, production tenant isolation for inventory, a public backend, external audit or a safe operating pilot.
 
+## Inventory reconciliation and recovery rehearsal
+
+- `scripts/check_inventory_integrity.py`: read-only mass/conservation and donation-state diagnostic, including outstanding recipient capacity.
+- `scripts/verify_backup_restore_ci.py`: CI-only PostgreSQL custom-format dump/restore with table/row/migration comparisons; no backup is uploaded publicly.
+- See [Data integrity and recovery](docs/INTEGRITY_AND_RECOVERY.md). This test setup does not replace encrypted off-site backups, authenticated pilots or real-world approvals.
+
 ## API highlights
 ```text
 GET  /api/v1/health

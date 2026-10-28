@@ -91,3 +91,7 @@ jobs:
         run: python -m pytest tests/test_postgres_integration.py -q
       - name: Verify migration is idempotent
         run: python scripts/init_schema_for_staging.py
+      - name: Dump and restore an isolated PostgreSQL snapshot (CI only)
+        env:
+          PG_SERVICE_ID: ${{ job.services.postgres.id }}
+        run: python scripts/verify_backup_restore_ci.py

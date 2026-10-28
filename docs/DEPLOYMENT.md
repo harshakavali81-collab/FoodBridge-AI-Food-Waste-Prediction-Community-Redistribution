@@ -51,6 +51,10 @@ An RS256 JWT identity verifier with issuer/audience/time validation and a tenant
 
 A [temporary PostgreSQL CI job](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756) provisions a disposable PostgreSQL 17 container, applies both Alembic revisions, verifies foreign-key and mock-review constraints, and replays the migrations. This proves a fresh PostgreSQL schema path, not independently reviewed real data or public hosting. The authenticated pilot-review sandbox uses signed RS256 JWTs and remains separate from operational inventory; see [identity limitations](IDENTITY_AND_PILOT_REVIEWS.md).
 
+## Operational ledger reconciliation and recovery test
+
+[Data integrity and recovery guide](INTEGRITY_AND_RECOVERY.md) explains a read-only donation ledger check and a disposable PostgreSQL dump/restore exercise in CI. These are test-only controls; a future real deployment still needs audited backup/restore, encryption and continuity procedures.
+
 ## Production release gates
 
 1. Independently verify donor and recipient registration, formal consent, authority to collect, trained handlers and distribution operations.

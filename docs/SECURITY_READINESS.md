@@ -32,3 +32,9 @@ A non-operational, tenant-scoped review sandbox validates RS256 JWT signatures a
 ## Verified disposable PostgreSQL schema checks (2026-10-28)
 
 [GitHub CI run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756) passed PostgreSQL 17 service tests against initial + second Alembic migrations, tenant-review uniqueness, and donation foreign keys. The integration test intentionally triggers a duplicate-key rejection and confirms the database enforces it. This is isolated CI evidence, **not** an audited production database or row-level security for donations.
+
+## Data-integrity and recovery verification
+
+The repository includes a **read-only** ledger reconciliation tool that checks inventory allocation, recipient capacity and donation state consistency in synthetic records. GitHub CI also tests dump/restore of a disposable PostgreSQL database using matching server-version tools. See [Integrity and recovery](INTEGRITY_AND_RECOVERY.md).
+
+This is test coverage only: independent production backup infrastructure, retention, encryption, recovery drills, incident-response sign-off and real-world data integrity remain **unverified**.
