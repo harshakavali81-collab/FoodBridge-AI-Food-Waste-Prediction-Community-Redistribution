@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.sqlite*
+coverage.xml
+htmlcov/
+frontend/node_modules/
+frontend/dist/
+models/*.joblib
+.DS_Store

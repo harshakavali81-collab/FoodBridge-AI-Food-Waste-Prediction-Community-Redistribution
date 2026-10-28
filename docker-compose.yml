@@ -1,0 +1,25 @@
+services:
+  api:
+    build: { context: ., dockerfile: Dockerfile.api }
+    env_file: .env
+    environment:
+      DATABASE_URL: sqlite:////app/state/foodbridge.db
+    volumes:
+      - foodbridge_state:/app/state
+    ports:
+      - '127.0.0.1:8000:8000'
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'python', '-c', 'import urllib.request; urllib.request.urlopen("http://localhost:8000/api/v1/health")']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+  web:
+    build: ./frontend
+    ports:
+      - '127.0.0.1:3000:80'
+    depends_on:
+      api: { condition: service_healthy }
+    restart: unless-stopped
+volumes:
+  foodbridge_state:
