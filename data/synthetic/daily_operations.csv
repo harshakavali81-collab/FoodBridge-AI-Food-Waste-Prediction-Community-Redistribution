@@ -1,0 +1,841 @@
+date,partner,category,prepared_kg,sold_kg,surplus_kg,donated_kg
+2026-04-01,Green Bowl Cafe (Demo),produce,79.9,55,24.9,18.4
+2026-04-01,City Bakery (Demo),bakery,72.4,50.9,21.5,10.5
+2026-04-01,Harvest Market (Demo),grains,125.6,90.2,35.4,28.5
+2026-04-01,FreshFork Kitchen (Demo),prepared,98.1,68.7,29.4,16.2
+2026-04-02,Green Bowl Cafe (Demo),produce,71.5,51.6,19.9,14.1
+2026-04-02,City Bakery (Demo),bakery,47.3,32.9,14.4,6.9
+2026-04-02,Harvest Market (Demo),grains,118.8,79.9,38.9,21.1
+2026-04-02,FreshFork Kitchen (Demo),prepared,101,72.7,28.3,13.6
+2026-04-03,Green Bowl Cafe (Demo),produce,67.3,45,22.3,11.1
+2026-04-03,City Bakery (Demo),bakery,74,50.7,23.3,11.7
+2026-04-03,Harvest Market (Demo),grains,116.9,90,26.9,21.6
+2026-04-03,FreshFork Kitchen (Demo),prepared,91,60.7,30.3,8.8
+2026-04-04,Green Bowl Cafe (Demo),produce,83.8,63.3,20.5,12.3
+2026-04-04,City Bakery (Demo),bakery,74.3,57.9,16.4,10.1
+2026-04-04,Harvest Market (Demo),grains,138.2,94.2,44,29.9
+2026-04-04,FreshFork Kitchen (Demo),prepared,106.6,88.1,18.5,12.9
+2026-04-05,Green Bowl Cafe (Demo),produce,84.1,59.4,24.7,8.7
+2026-04-05,City Bakery (Demo),bakery,82.1,60.5,21.6,11.8
+2026-04-05,Harvest Market (Demo),grains,141.9,105.3,36.6,20.3
+2026-04-05,FreshFork Kitchen (Demo),prepared,104.2,76.2,28,11.1
+2026-04-06,Green Bowl Cafe (Demo),produce,80.5,60.2,20.3,10.6
+2026-04-06,City Bakery (Demo),bakery,69.5,42.3,27.2,19.2
+2026-04-06,Harvest Market (Demo),grains,119.9,80.3,39.6,20
+2026-04-06,FreshFork Kitchen (Demo),prepared,84.8,58.2,26.6,15.7
+2026-04-07,Green Bowl Cafe (Demo),produce,70,46.1,23.9,13.3
+2026-04-07,City Bakery (Demo),bakery,61.2,45.6,15.6,10.1
+2026-04-07,Harvest Market (Demo),grains,114.7,78.4,36.3,21.3
+2026-04-07,FreshFork Kitchen (Demo),prepared,77.3,52.6,24.7,16.3
+2026-04-08,Green Bowl Cafe (Demo),produce,70.5,43.9,26.6,18.5
+2026-04-08,City Bakery (Demo),bakery,59,44,15,8.2
+2026-04-08,Harvest Market (Demo),grains,109.3,80.6,28.7,13.3
+2026-04-08,FreshFork Kitchen (Demo),prepared,90.1,66.8,23.3,11.6
+2026-04-09,Green Bowl Cafe (Demo),produce,73.1,49.1,24,14.1
+2026-04-09,City Bakery (Demo),bakery,58.8,40.6,18.2,11.2
+2026-04-09,Harvest Market (Demo),grains,115.5,74.4,41.1,18.8
+2026-04-09,FreshFork Kitchen (Demo),prepared,90.6,63.7,26.9,15.3
+2026-04-10,Green Bowl Cafe (Demo),produce,75.4,47.8,27.6,18.5
+2026-04-10,City Bakery (Demo),bakery,75.5,51.6,23.9,17.6
+2026-04-10,Harvest Market (Demo),grains,114.1,67,47.1,32.2
+2026-04-10,FreshFork Kitchen (Demo),prepared,100.2,70.9,29.3,18.4
+2026-04-11,Green Bowl Cafe (Demo),produce,88.6,69.7,18.9,11.7
+2026-04-11,City Bakery (Demo),bakery,84.6,61.8,22.8,12.9
+2026-04-11,Harvest Market (Demo),grains,125.8,97.2,28.6,12.4
+2026-04-11,FreshFork Kitchen (Demo),prepared,110.6,89.4,21.2,11.1
+2026-04-12,Green Bowl Cafe (Demo),produce,87.7,71,16.7,9
+2026-04-12,City Bakery (Demo),bakery,85.4,70.2,15.2,5.4
+2026-04-12,Harvest Market (Demo),grains,125.6,95.4,30.2,23.4
+2026-04-12,FreshFork Kitchen (Demo),prepared,108.5,84.6,23.9,11.1
+2026-04-13,Green Bowl Cafe (Demo),produce,75.5,55.4,20.1,9.6
+2026-04-13,City Bakery (Demo),bakery,70.1,49.9,20.2,11
+2026-04-13,Harvest Market (Demo),grains,125.3,89.7,35.6,21.2
+2026-04-13,FreshFork Kitchen (Demo),prepared,90.3,55.6,34.7,19.5
+2026-04-14,Green Bowl Cafe (Demo),produce,65.9,45.6,20.3,5.2
+2026-04-14,City Bakery (Demo),bakery,73.2,45.6,27.6,13.9
+2026-04-14,Harvest Market (Demo),grains,127.8,85.9,41.9,28.5
+2026-04-14,FreshFork Kitchen (Demo),prepared,93.7,60.8,32.9,26.7
+2026-04-15,Green Bowl Cafe (Demo),produce,79.1,54.2,24.9,14.1
+2026-04-15,City Bakery (Demo),bakery,75.5,46.6,28.9,17.3
+2026-04-15,Harvest Market (Demo),grains,134.5,88.7,45.8,18.8
+2026-04-15,FreshFork Kitchen (Demo),prepared,87.3,62.4,24.9,9.6
+2026-04-16,Green Bowl Cafe (Demo),produce,62.1,37.3,24.8,19.1
+2026-04-16,City Bakery (Demo),bakery,68,46,22,12
+2026-04-16,Harvest Market (Demo),grains,124.3,85.4,38.9,19.8
+2026-04-16,FreshFork Kitchen (Demo),prepared,89.4,58.6,30.8,19.9
+2026-04-17,Green Bowl Cafe (Demo),produce,71.8,51,20.8,9.3
+2026-04-17,City Bakery (Demo),bakery,68.5,45.9,22.6,14.3
+2026-04-17,Harvest Market (Demo),grains,129.4,89.4,40,19
+2026-04-17,FreshFork Kitchen (Demo),prepared,88.3,67.8,20.5,11.1
+2026-04-18,Green Bowl Cafe (Demo),produce,85.9,71.5,14.4,8.8
+2026-04-18,City Bakery (Demo),bakery,89.4,66.2,23.2,16.4
+2026-04-18,Harvest Market (Demo),grains,126.6,93.9,32.7,27.8
+2026-04-18,FreshFork Kitchen (Demo),prepared,98.2,80.2,18,12.1
+2026-04-19,Green Bowl Cafe (Demo),produce,75.7,59.8,15.9,8.6
+2026-04-19,City Bakery (Demo),bakery,77.9,62.8,15.1,9.8
+2026-04-19,Harvest Market (Demo),grains,138.3,103.5,34.8,19.8
+2026-04-19,FreshFork Kitchen (Demo),prepared,93.4,69.2,24.2,18.9
+2026-04-20,Green Bowl Cafe (Demo),produce,69.5,51.5,18,11.2
+2026-04-20,City Bakery (Demo),bakery,65.7,44.9,20.8,7.6
+2026-04-20,Harvest Market (Demo),grains,101.8,67.6,34.2,20.9
+2026-04-20,FreshFork Kitchen (Demo),prepared,83.2,58,25.2,18.4
+2026-04-21,Green Bowl Cafe (Demo),produce,81.8,54.3,27.5,13.5
+2026-04-21,City Bakery (Demo),bakery,67.6,46,21.6,8.2
+2026-04-21,Harvest Market (Demo),grains,110.5,78.3,32.2,15.7
+2026-04-21,FreshFork Kitchen (Demo),prepared,80.7,49.9,30.8,16.5
+2026-04-22,Green Bowl Cafe (Demo),produce,74.4,48,26.4,17.3
+2026-04-22,City Bakery (Demo),bakery,57.4,39.2,18.2,11.8
+2026-04-22,Harvest Market (Demo),grains,108.6,69.9,38.7,18
+2026-04-22,FreshFork Kitchen (Demo),prepared,78.5,54.9,23.6,15.4
+2026-04-23,Green Bowl Cafe (Demo),produce,80.6,57.6,23,15.7
+2026-04-23,City Bakery (Demo),bakery,75.2,55.1,20.1,9.2
+2026-04-23,Harvest Market (Demo),grains,119.3,82,37.3,20.5
+2026-04-23,FreshFork Kitchen (Demo),prepared,91.6,66.6,25,11.3
+2026-04-24,Green Bowl Cafe (Demo),produce,80.2,49.9,30.3,9.1
+2026-04-24,City Bakery (Demo),bakery,71,49.6,21.4,13.8
+2026-04-24,Harvest Market (Demo),grains,116.9,82,34.9,14
+2026-04-24,FreshFork Kitchen (Demo),prepared,89.6,61.7,27.9,19.2
+2026-04-25,Green Bowl Cafe (Demo),produce,88.5,63.5,25,15
+2026-04-25,City Bakery (Demo),bakery,82.3,63.7,18.6,7.5
+2026-04-25,Harvest Market (Demo),grains,117.4,92.6,24.8,16.7
+2026-04-25,FreshFork Kitchen (Demo),prepared,92.4,70.8,21.6,8.8
+2026-04-26,Green Bowl Cafe (Demo),produce,82,61.7,20.3,9.4
+2026-04-26,City Bakery (Demo),bakery,67.9,55.4,12.5,6.6
+2026-04-26,Harvest Market (Demo),grains,132.5,101.1,31.4,16
+2026-04-26,FreshFork Kitchen (Demo),prepared,95.1,64.6,30.5,19.3
+2026-04-27,Green Bowl Cafe (Demo),produce,73.5,48.6,24.9,12.9
+2026-04-27,City Bakery (Demo),bakery,59.7,40.1,19.6,10.6
+2026-04-27,Harvest Market (Demo),grains,102.4,62.7,39.7,15.1
+2026-04-27,FreshFork Kitchen (Demo),prepared,78.7,52.4,26.3,18.8
+2026-04-28,Green Bowl Cafe (Demo),produce,69.1,45.6,23.5,8.2
+2026-04-28,City Bakery (Demo),bakery,63.1,42.7,20.4,7.6
+2026-04-28,Harvest Market (Demo),grains,108.1,76.8,31.3,13.9
+2026-04-28,FreshFork Kitchen (Demo),prepared,89.3,63.3,26,14.1
+2026-04-29,Green Bowl Cafe (Demo),produce,69.7,45.4,24.3,16.1
+2026-04-29,City Bakery (Demo),bakery,52,34.8,17.2,9.3
+2026-04-29,Harvest Market (Demo),grains,115.1,85.5,29.6,18.2
+2026-04-29,FreshFork Kitchen (Demo),prepared,91,57.9,33.1,17.3
+2026-04-30,Green Bowl Cafe (Demo),produce,86.9,60.4,26.5,15.9
+2026-04-30,City Bakery (Demo),bakery,68.5,46.2,22.3,15.3
+2026-04-30,Harvest Market (Demo),grains,116.9,75.7,41.2,19.7
+2026-04-30,FreshFork Kitchen (Demo),prepared,92.1,62.8,29.3,19.4
+2026-05-01,Green Bowl Cafe (Demo),produce,88.8,61.2,27.6,16.9
+2026-05-01,City Bakery (Demo),bakery,63.2,42.9,20.3,11.9
+2026-05-01,Harvest Market (Demo),grains,109.6,75.4,34.2,21.4
+2026-05-01,FreshFork Kitchen (Demo),prepared,79.7,63.5,16.2,9.7
+2026-05-02,Green Bowl Cafe (Demo),produce,91.3,68.9,22.4,9.2
+2026-05-02,City Bakery (Demo),bakery,66.1,45,21.1,10.6
+2026-05-02,Harvest Market (Demo),grains,113.4,78.6,34.8,18.6
+2026-05-02,FreshFork Kitchen (Demo),prepared,104.4,77.4,27,20.2
+2026-05-03,Green Bowl Cafe (Demo),produce,97,74.7,22.3,14.7
+2026-05-03,City Bakery (Demo),bakery,75.8,59.5,16.3,6.9
+2026-05-03,Harvest Market (Demo),grains,146.7,120.1,26.6,17.6
+2026-05-03,FreshFork Kitchen (Demo),prepared,107.9,93.3,14.6,11.2
+2026-05-04,Green Bowl Cafe (Demo),produce,71.2,53.2,18,10
+2026-05-04,City Bakery (Demo),bakery,61.1,44.2,16.9,14.2
+2026-05-04,Harvest Market (Demo),grains,108.1,73.4,34.7,12.2
+2026-05-04,FreshFork Kitchen (Demo),prepared,91.7,63.3,28.4,15.5
+2026-05-05,Green Bowl Cafe (Demo),produce,61.4,42.8,18.6,10.9
+2026-05-05,City Bakery (Demo),bakery,63,39.9,23.1,9
+2026-05-05,Harvest Market (Demo),grains,102.8,62.8,40,19.9
+2026-05-05,FreshFork Kitchen (Demo),prepared,93.6,65.6,28,19.7
+2026-05-06,Green Bowl Cafe (Demo),produce,81.9,55.7,26.2,9.7
+2026-05-06,City Bakery (Demo),bakery,55.5,41.4,14.1,11
+2026-05-06,Harvest Market (Demo),grains,97.4,59.2,38.2,27.4
+2026-05-06,FreshFork Kitchen (Demo),prepared,91.3,53.9,37.4,19.4
+2026-05-07,Green Bowl Cafe (Demo),produce,66.8,48.3,18.5,10.2
+2026-05-07,City Bakery (Demo),bakery,64.3,50.4,13.9,6.2
+2026-05-07,Harvest Market (Demo),grains,100.2,63,37.2,17.6
+2026-05-07,FreshFork Kitchen (Demo),prepared,92.1,65.9,26.2,15.3
+2026-05-08,Green Bowl Cafe (Demo),produce,72.4,45.3,27.1,9.1
+2026-05-08,City Bakery (Demo),bakery,53.2,33.4,19.8,8.3
+2026-05-08,Harvest Market (Demo),grains,115.1,73.7,41.4,26.4
+2026-05-08,FreshFork Kitchen (Demo),prepared,82,50.8,31.2,13.6
+2026-05-09,Green Bowl Cafe (Demo),produce,85.7,69.5,16.2,7.5
+2026-05-09,City Bakery (Demo),bakery,79.8,57.6,22.2,11.9
+2026-05-09,Harvest Market (Demo),grains,117.6,91.9,25.7,6.8
+2026-05-09,FreshFork Kitchen (Demo),prepared,108.6,83.5,25.1,18.6
+2026-05-10,Green Bowl Cafe (Demo),produce,89,65.3,23.7,18.4
+2026-05-10,City Bakery (Demo),bakery,65.2,48.6,16.6,9
+2026-05-10,Harvest Market (Demo),grains,118.8,89.3,29.5,11.7
+2026-05-10,FreshFork Kitchen (Demo),prepared,103,88.4,14.6,7.8
+2026-05-11,Green Bowl Cafe (Demo),produce,78.3,54,24.3,12.4
+2026-05-11,City Bakery (Demo),bakery,56.1,36.6,19.5,11.1
+2026-05-11,Harvest Market (Demo),grains,99,65.4,33.6,18.8
+2026-05-11,FreshFork Kitchen (Demo),prepared,81.2,57.9,23.3,15.9
+2026-05-12,Green Bowl Cafe (Demo),produce,63.6,45.5,18.1,10.6
+2026-05-12,City Bakery (Demo),bakery,56.8,39.7,17.1,10.5
+2026-05-12,Harvest Market (Demo),grains,114.4,79.7,34.7,19.1
+2026-05-12,FreshFork Kitchen (Demo),prepared,79.2,52.2,27,10.3
+2026-05-13,Green Bowl Cafe (Demo),produce,79.4,51,28.4,10.4
+2026-05-13,City Bakery (Demo),bakery,48.6,36.5,12.1,7.3
+2026-05-13,Harvest Market (Demo),grains,106.9,78.1,28.8,16.1
+2026-05-13,FreshFork Kitchen (Demo),prepared,102.6,67.3,35.3,17.5
+2026-05-14,Green Bowl Cafe (Demo),produce,68.7,46.1,22.6,11.9
+2026-05-14,City Bakery (Demo),bakery,59.4,43.6,15.8,11.7
+2026-05-14,Harvest Market (Demo),grains,114.5,82.2,32.3,19.6
+2026-05-14,FreshFork Kitchen (Demo),prepared,91.8,65.2,26.6,17.9
+2026-05-15,Green Bowl Cafe (Demo),produce,76.4,59.9,16.5,11.1
+2026-05-15,City Bakery (Demo),bakery,57.9,35.9,22,15.6
+2026-05-15,Harvest Market (Demo),grains,95.5,60.4,35.1,16.6
+2026-05-15,FreshFork Kitchen (Demo),prepared,89.5,63.9,25.6,12.9
+2026-05-16,Green Bowl Cafe (Demo),produce,93.5,73.3,20.2,14.3
+2026-05-16,City Bakery (Demo),bakery,58.8,42.1,16.7,10.2
+2026-05-16,Harvest Market (Demo),grains,111.1,80.4,30.7,22.2
+2026-05-16,FreshFork Kitchen (Demo),prepared,99.9,75.9,24,8.8
+2026-05-17,Green Bowl Cafe (Demo),produce,76.3,60,16.3,10.1
+2026-05-17,City Bakery (Demo),bakery,74,55.4,18.6,10.4
+2026-05-17,Harvest Market (Demo),grains,120.6,86.1,34.5,18
+2026-05-17,FreshFork Kitchen (Demo),prepared,109.2,85.6,23.6,11.5
+2026-05-18,Green Bowl Cafe (Demo),produce,74.1,53.4,20.7,12.4
+2026-05-18,City Bakery (Demo),bakery,54.5,30.6,23.9,10.7
+2026-05-18,Harvest Market (Demo),grains,97.8,64,33.8,21.6
+2026-05-18,FreshFork Kitchen (Demo),prepared,93.2,55.6,37.6,15.9
+2026-05-19,Green Bowl Cafe (Demo),produce,69.4,50.5,18.9,7.8
+2026-05-19,City Bakery (Demo),bakery,65.3,43.8,21.5,17
+2026-05-19,Harvest Market (Demo),grains,102.4,72.6,29.8,11.5
+2026-05-19,FreshFork Kitchen (Demo),prepared,97.8,63.3,34.5,14.7
+2026-05-20,Green Bowl Cafe (Demo),produce,75.8,52.9,22.9,14.1
+2026-05-20,City Bakery (Demo),bakery,47.8,36.4,11.4,6.7
+2026-05-20,Harvest Market (Demo),grains,110.6,71.8,38.8,14.9
+2026-05-20,FreshFork Kitchen (Demo),prepared,101.5,73.7,27.8,16.6
+2026-05-21,Green Bowl Cafe (Demo),produce,69.1,47.6,21.5,11.7
+2026-05-21,City Bakery (Demo),bakery,59.7,43.7,16,8.6
+2026-05-21,Harvest Market (Demo),grains,108.4,74.2,34.2,19.1
+2026-05-21,FreshFork Kitchen (Demo),prepared,88.8,58.2,30.6,20.3
+2026-05-22,Green Bowl Cafe (Demo),produce,65.4,45.2,20.2,11.1
+2026-05-22,City Bakery (Demo),bakery,45.7,35.4,10.3,7
+2026-05-22,Harvest Market (Demo),grains,107.8,72.2,35.6,15.1
+2026-05-22,FreshFork Kitchen (Demo),prepared,90.9,61.1,29.8,18.6
+2026-05-23,Green Bowl Cafe (Demo),produce,84.4,61.5,22.9,11.4
+2026-05-23,City Bakery (Demo),bakery,74.5,59,15.5,10.3
+2026-05-23,Harvest Market (Demo),grains,117.1,95.4,21.7,11.4
+2026-05-23,FreshFork Kitchen (Demo),prepared,104.8,79.5,25.3,11.5
+2026-05-24,Green Bowl Cafe (Demo),produce,83.7,65.4,18.3,9.6
+2026-05-24,City Bakery (Demo),bakery,68.6,50.5,18.1,13.4
+2026-05-24,Harvest Market (Demo),grains,120.4,86.8,33.6,19.7
+2026-05-24,FreshFork Kitchen (Demo),prepared,105,79.3,25.7,20.6
+2026-05-25,Green Bowl Cafe (Demo),produce,56.7,42.8,13.9,8.3
+2026-05-25,City Bakery (Demo),bakery,50,38.7,11.3,8.4
+2026-05-25,Harvest Market (Demo),grains,109.1,73.3,35.8,10.1
+2026-05-25,FreshFork Kitchen (Demo),prepared,92,58.3,33.7,19.6
+2026-05-26,Green Bowl Cafe (Demo),produce,79.5,49,30.5,12.6
+2026-05-26,City Bakery (Demo),bakery,60.3,39.3,21,10.6
+2026-05-26,Harvest Market (Demo),grains,105.1,73.4,31.7,21.9
+2026-05-26,FreshFork Kitchen (Demo),prepared,101.5,68.6,32.9,18.7
+2026-05-27,Green Bowl Cafe (Demo),produce,67.6,49,18.6,12.4
+2026-05-27,City Bakery (Demo),bakery,58.8,41.7,17.1,8
+2026-05-27,Harvest Market (Demo),grains,99.1,62,37.1,16.4
+2026-05-27,FreshFork Kitchen (Demo),prepared,93.5,69.7,23.8,8.9
+2026-05-28,Green Bowl Cafe (Demo),produce,65,42.5,22.5,12.3
+2026-05-28,City Bakery (Demo),bakery,49,34.1,14.9,9.8
+2026-05-28,Harvest Market (Demo),grains,109.7,80.8,28.9,17.1
+2026-05-28,FreshFork Kitchen (Demo),prepared,95.8,61.7,34.1,16.1
+2026-05-29,Green Bowl Cafe (Demo),produce,66,45.6,20.4,9.5
+2026-05-29,City Bakery (Demo),bakery,42.9,31,11.9,8.9
+2026-05-29,Harvest Market (Demo),grains,104.5,66,38.5,17.1
+2026-05-29,FreshFork Kitchen (Demo),prepared,89.9,61.8,28.1,14.9
+2026-05-30,Green Bowl Cafe (Demo),produce,86.7,67.9,18.8,7
+2026-05-30,City Bakery (Demo),bakery,58.1,45.5,12.6,7.5
+2026-05-30,Harvest Market (Demo),grains,130.6,92.1,38.5,20.7
+2026-05-30,FreshFork Kitchen (Demo),prepared,100.3,79.3,21,13.6
+2026-05-31,Green Bowl Cafe (Demo),produce,84.9,66.5,18.4,13.5
+2026-05-31,City Bakery (Demo),bakery,63.7,48,15.7,8.1
+2026-05-31,Harvest Market (Demo),grains,120.2,93.9,26.3,11.5
+2026-05-31,FreshFork Kitchen (Demo),prepared,113.3,86.1,27.2,15.4
+2026-06-01,Green Bowl Cafe (Demo),produce,66.1,42.4,23.7,12.9
+2026-06-01,City Bakery (Demo),bakery,55.6,38.6,17,9.1
+2026-06-01,Harvest Market (Demo),grains,112.3,73.7,38.6,16.8
+2026-06-01,FreshFork Kitchen (Demo),prepared,97.4,65.4,32,28.8
+2026-06-02,Green Bowl Cafe (Demo),produce,65.8,46.4,19.4,17.5
+2026-06-02,City Bakery (Demo),bakery,53.3,34.7,18.6,9
+2026-06-02,Harvest Market (Demo),grains,110,70.5,39.5,29.9
+2026-06-02,FreshFork Kitchen (Demo),prepared,93,53.8,39.2,23.9
+2026-06-03,Green Bowl Cafe (Demo),produce,59.5,43.3,16.2,9.6
+2026-06-03,City Bakery (Demo),bakery,50.3,32.1,18.2,11.6
+2026-06-03,Harvest Market (Demo),grains,112,79.7,32.3,24.9
+2026-06-03,FreshFork Kitchen (Demo),prepared,104.7,68.3,36.4,26.4
+2026-06-04,Green Bowl Cafe (Demo),produce,63.2,45.4,17.8,9.5
+2026-06-04,City Bakery (Demo),bakery,58.1,39.5,18.6,6.7
+2026-06-04,Harvest Market (Demo),grains,108.4,78.2,30.2,7.4
+2026-06-04,FreshFork Kitchen (Demo),prepared,99.5,75.3,24.2,13.3
+2026-06-05,Green Bowl Cafe (Demo),produce,60.9,41.3,19.6,10.6
+2026-06-05,City Bakery (Demo),bakery,49.2,30.4,18.8,11.4
+2026-06-05,Harvest Market (Demo),grains,115,73.9,41.1,25.6
+2026-06-05,FreshFork Kitchen (Demo),prepared,95.9,60.6,35.3,18.2
+2026-06-06,Green Bowl Cafe (Demo),produce,69.9,53.1,16.8,9.4
+2026-06-06,City Bakery (Demo),bakery,75.9,59.8,16.1,9.1
+2026-06-06,Harvest Market (Demo),grains,124,97.2,26.8,14.7
+2026-06-06,FreshFork Kitchen (Demo),prepared,115.4,89.8,25.6,17.8
+2026-06-07,Green Bowl Cafe (Demo),produce,82.3,62.6,19.7,11.6
+2026-06-07,City Bakery (Demo),bakery,65.4,49.8,15.6,8
+2026-06-07,Harvest Market (Demo),grains,124,98.6,25.4,14.1
+2026-06-07,FreshFork Kitchen (Demo),prepared,93.8,67.8,26,16.2
+2026-06-08,Green Bowl Cafe (Demo),produce,81,56.2,24.8,13.3
+2026-06-08,City Bakery (Demo),bakery,55.2,37.4,17.8,10
+2026-06-08,Harvest Market (Demo),grains,111.5,76.5,35,24.8
+2026-06-08,FreshFork Kitchen (Demo),prepared,100.6,71.6,29,13.2
+2026-06-09,Green Bowl Cafe (Demo),produce,64.3,43.9,20.4,11.7
+2026-06-09,City Bakery (Demo),bakery,40.5,26.1,14.4,10.1
+2026-06-09,Harvest Market (Demo),grains,106.1,73.1,33,12
+2026-06-09,FreshFork Kitchen (Demo),prepared,106.3,76.8,29.5,15.9
+2026-06-10,Green Bowl Cafe (Demo),produce,56.5,35,21.5,14.7
+2026-06-10,City Bakery (Demo),bakery,56.8,35.7,21.1,15.2
+2026-06-10,Harvest Market (Demo),grains,114.1,81.2,32.9,18.3
+2026-06-10,FreshFork Kitchen (Demo),prepared,94.4,60.1,34.3,21.1
+2026-06-11,Green Bowl Cafe (Demo),produce,60.2,41.7,18.5,10.2
+2026-06-11,City Bakery (Demo),bakery,57.2,42.6,14.6,9
+2026-06-11,Harvest Market (Demo),grains,109.9,78.4,31.5,20.5
+2026-06-11,FreshFork Kitchen (Demo),prepared,95.6,64.8,30.8,15.5
+2026-06-12,Green Bowl Cafe (Demo),produce,67.8,46.1,21.7,10.5
+2026-06-12,City Bakery (Demo),bakery,48.4,31.9,16.5,8.3
+2026-06-12,Harvest Market (Demo),grains,114.7,78.4,36.3,10.6
+2026-06-12,FreshFork Kitchen (Demo),prepared,102,63.7,38.3,25.7
+2026-06-13,Green Bowl Cafe (Demo),produce,86.8,61,25.8,11.4
+2026-06-13,City Bakery (Demo),bakery,65.9,53.4,12.5,9
+2026-06-13,Harvest Market (Demo),grains,136.6,92.6,44,16.5
+2026-06-13,FreshFork Kitchen (Demo),prepared,111.5,74.1,37.4,29.7
+2026-06-14,Green Bowl Cafe (Demo),produce,70.2,51.4,18.8,8.5
+2026-06-14,City Bakery (Demo),bakery,53.8,41.2,12.6,4.7
+2026-06-14,Harvest Market (Demo),grains,131,99,32,19.7
+2026-06-14,FreshFork Kitchen (Demo),prepared,116.3,97.4,18.9,9.9
+2026-06-15,Green Bowl Cafe (Demo),produce,68.6,45.6,23,18.3
+2026-06-15,City Bakery (Demo),bakery,59.5,37.3,22.2,9.6
+2026-06-15,Harvest Market (Demo),grains,111.1,84.5,26.6,12.4
+2026-06-15,FreshFork Kitchen (Demo),prepared,107.9,72,35.9,15.9
+2026-06-16,Green Bowl Cafe (Demo),produce,67.4,43.5,23.9,11.6
+2026-06-16,City Bakery (Demo),bakery,50.4,34.8,15.6,10.4
+2026-06-16,Harvest Market (Demo),grains,117.2,80.5,36.7,24.2
+2026-06-16,FreshFork Kitchen (Demo),prepared,99.3,74.1,25.2,14.5
+2026-06-17,Green Bowl Cafe (Demo),produce,76.8,55,21.8,12
+2026-06-17,City Bakery (Demo),bakery,52,35.8,16.2,9.9
+2026-06-17,Harvest Market (Demo),grains,108.1,65.9,42.2,28
+2026-06-17,FreshFork Kitchen (Demo),prepared,100,73,27,11.9
+2026-06-18,Green Bowl Cafe (Demo),produce,68.8,49.2,19.6,11.5
+2026-06-18,City Bakery (Demo),bakery,52.4,37.2,15.2,10.7
+2026-06-18,Harvest Market (Demo),grains,111.4,78.2,33.2,20.7
+2026-06-18,FreshFork Kitchen (Demo),prepared,99,63.3,35.7,17.2
+2026-06-19,Green Bowl Cafe (Demo),produce,53.6,35.8,17.8,12.1
+2026-06-19,City Bakery (Demo),bakery,64,42.9,21.1,14.1
+2026-06-19,Harvest Market (Demo),grains,116,77.3,38.7,26.9
+2026-06-19,FreshFork Kitchen (Demo),prepared,99.1,65.9,33.2,20.6
+2026-06-20,Green Bowl Cafe (Demo),produce,62.1,47.6,14.5,8
+2026-06-20,City Bakery (Demo),bakery,68.7,54.2,14.5,10.4
+2026-06-20,Harvest Market (Demo),grains,126.4,100.2,26.2,11
+2026-06-20,FreshFork Kitchen (Demo),prepared,104.2,80,24.2,15.5
+2026-06-21,Green Bowl Cafe (Demo),produce,65.8,57.6,8.2,5.1
+2026-06-21,City Bakery (Demo),bakery,66.3,51.1,15.2,10.8
+2026-06-21,Harvest Market (Demo),grains,128.7,98.4,30.3,15.9
+2026-06-21,FreshFork Kitchen (Demo),prepared,104.6,77.4,27.2,19.4
+2026-06-22,Green Bowl Cafe (Demo),produce,64.4,48.3,16.1,13
+2026-06-22,City Bakery (Demo),bakery,59.5,39.1,20.4,8.2
+2026-06-22,Harvest Market (Demo),grains,109.4,76,33.4,16.2
+2026-06-22,FreshFork Kitchen (Demo),prepared,107,72,35,22.1
+2026-06-23,Green Bowl Cafe (Demo),produce,60.1,43.4,16.7,10.9
+2026-06-23,City Bakery (Demo),bakery,56.2,36.4,19.8,9.6
+2026-06-23,Harvest Market (Demo),grains,122.1,74.5,47.6,24.6
+2026-06-23,FreshFork Kitchen (Demo),prepared,116.8,78.5,38.3,25.4
+2026-06-24,Green Bowl Cafe (Demo),produce,62.3,44,18.3,12.3
+2026-06-24,City Bakery (Demo),bakery,59.2,40.1,19.1,14.1
+2026-06-24,Harvest Market (Demo),grains,120.1,81.6,38.5,32.2
+2026-06-24,FreshFork Kitchen (Demo),prepared,102.3,69.9,32.4,21.2
+2026-06-25,Green Bowl Cafe (Demo),produce,63.6,45.5,18.1,8.4
+2026-06-25,City Bakery (Demo),bakery,59.6,38.5,21.1,9.2
+2026-06-25,Harvest Market (Demo),grains,118.2,77.9,40.3,22.3
+2026-06-25,FreshFork Kitchen (Demo),prepared,103.9,66.5,37.4,16.1
+2026-06-26,Green Bowl Cafe (Demo),produce,60.1,39.9,20.2,8.3
+2026-06-26,City Bakery (Demo),bakery,65.4,44.2,21.2,8.7
+2026-06-26,Harvest Market (Demo),grains,127.7,79.9,47.8,25.6
+2026-06-26,FreshFork Kitchen (Demo),prepared,115.7,65.6,50.1,29.4
+2026-06-27,Green Bowl Cafe (Demo),produce,74.7,56.8,17.9,7.5
+2026-06-27,City Bakery (Demo),bakery,61.4,48.4,13,5.3
+2026-06-27,Harvest Market (Demo),grains,139.9,105.6,34.3,15.4
+2026-06-27,FreshFork Kitchen (Demo),prepared,111,91.4,19.6,9.6
+2026-06-28,Green Bowl Cafe (Demo),produce,82.9,63,19.9,10.7
+2026-06-28,City Bakery (Demo),bakery,74.9,61.1,13.8,3.7
+2026-06-28,Harvest Market (Demo),grains,128,98.1,29.9,22.4
+2026-06-28,FreshFork Kitchen (Demo),prepared,128.1,106.8,21.3,11.1
+2026-06-29,Green Bowl Cafe (Demo),produce,61.8,48.9,12.9,9.1
+2026-06-29,City Bakery (Demo),bakery,44.5,33.5,11,3.6
+2026-06-29,Harvest Market (Demo),grains,112.8,71.8,41,22.8
+2026-06-29,FreshFork Kitchen (Demo),prepared,111.2,73.2,38,15.3
+2026-06-30,Green Bowl Cafe (Demo),produce,72.4,48.2,24.2,18.1
+2026-06-30,City Bakery (Demo),bakery,59,42.6,16.4,10.1
+2026-06-30,Harvest Market (Demo),grains,127,91.7,35.3,20.3
+2026-06-30,FreshFork Kitchen (Demo),prepared,109.3,78.3,31,16.7
+2026-07-01,Green Bowl Cafe (Demo),produce,58.6,37.3,21.3,12.1
+2026-07-01,City Bakery (Demo),bakery,62.6,38.8,23.8,11.8
+2026-07-01,Harvest Market (Demo),grains,127.2,84.5,42.7,19.9
+2026-07-01,FreshFork Kitchen (Demo),prepared,106.2,74.6,31.6,15.1
+2026-07-02,Green Bowl Cafe (Demo),produce,62.7,42.8,19.9,12.8
+2026-07-02,City Bakery (Demo),bakery,59.8,39.5,20.3,15.9
+2026-07-02,Harvest Market (Demo),grains,134,90.6,43.4,31.6
+2026-07-02,FreshFork Kitchen (Demo),prepared,87.2,61.4,25.8,13.8
+2026-07-03,Green Bowl Cafe (Demo),produce,75.6,51.9,23.7,16.3
+2026-07-03,City Bakery (Demo),bakery,62.2,41.4,20.8,9.9
+2026-07-03,Harvest Market (Demo),grains,124.9,91.2,33.7,20.2
+2026-07-03,FreshFork Kitchen (Demo),prepared,107.2,71.9,35.3,12
+2026-07-04,Green Bowl Cafe (Demo),produce,73.9,61.3,12.6,7.2
+2026-07-04,City Bakery (Demo),bakery,70.5,52.2,18.3,13
+2026-07-04,Harvest Market (Demo),grains,144.7,114.7,30,14.5
+2026-07-04,FreshFork Kitchen (Demo),prepared,108.8,86.7,22.1,9.3
+2026-07-05,Green Bowl Cafe (Demo),produce,81.7,64.8,16.9,7.4
+2026-07-05,City Bakery (Demo),bakery,74.8,62,12.8,3.8
+2026-07-05,Harvest Market (Demo),grains,133.1,107.9,25.2,14.8
+2026-07-05,FreshFork Kitchen (Demo),prepared,124.3,94.7,29.6,18.1
+2026-07-06,Green Bowl Cafe (Demo),produce,69.1,46,23.1,16.1
+2026-07-06,City Bakery (Demo),bakery,67.6,49.7,17.9,13.3
+2026-07-06,Harvest Market (Demo),grains,111.7,78.4,33.3,15.7
+2026-07-06,FreshFork Kitchen (Demo),prepared,103.2,73.7,29.5,13.9
+2026-07-07,Green Bowl Cafe (Demo),produce,56.9,40.9,16,6.4
+2026-07-07,City Bakery (Demo),bakery,66.5,48.7,17.8,6.4
+2026-07-07,Harvest Market (Demo),grains,115.9,83.2,32.7,25.2
+2026-07-07,FreshFork Kitchen (Demo),prepared,95.8,69.4,26.4,18.9
+2026-07-08,Green Bowl Cafe (Demo),produce,73,51.7,21.3,10.8
+2026-07-08,City Bakery (Demo),bakery,50.5,33.5,17,7.1
+2026-07-08,Harvest Market (Demo),grains,137.6,90.5,47.1,20.4
+2026-07-08,FreshFork Kitchen (Demo),prepared,101.1,58.7,42.4,30
+2026-07-09,Green Bowl Cafe (Demo),produce,65.1,45.1,20,12.2
+2026-07-09,City Bakery (Demo),bakery,70.1,43.5,26.6,14.2
+2026-07-09,Harvest Market (Demo),grains,112.1,75,37.1,21.7
+2026-07-09,FreshFork Kitchen (Demo),prepared,92.7,63.6,29.1,13.2
+2026-07-10,Green Bowl Cafe (Demo),produce,72.5,49.9,22.6,13.1
+2026-07-10,City Bakery (Demo),bakery,61.2,41.4,19.8,15.2
+2026-07-10,Harvest Market (Demo),grains,123.2,79.1,44.1,26.2
+2026-07-10,FreshFork Kitchen (Demo),prepared,96.3,60.8,35.5,21.5
+2026-07-11,Green Bowl Cafe (Demo),produce,78.1,58.4,19.7,9.3
+2026-07-11,City Bakery (Demo),bakery,78.9,62.6,16.3,6.1
+2026-07-11,Harvest Market (Demo),grains,147,106.8,40.2,16.5
+2026-07-11,FreshFork Kitchen (Demo),prepared,114.8,86.5,28.3,16.7
+2026-07-12,Green Bowl Cafe (Demo),produce,86.4,68.3,18.1,11.9
+2026-07-12,City Bakery (Demo),bakery,90.2,71.8,18.4,8.5
+2026-07-12,Harvest Market (Demo),grains,135.9,102.9,33,15.3
+2026-07-12,FreshFork Kitchen (Demo),prepared,103.6,74.8,28.8,20.7
+2026-07-13,Green Bowl Cafe (Demo),produce,72,43,29,13.8
+2026-07-13,City Bakery (Demo),bakery,74.3,47.4,26.9,11.6
+2026-07-13,Harvest Market (Demo),grains,122.9,78,44.9,33.2
+2026-07-13,FreshFork Kitchen (Demo),prepared,90.7,66.1,24.6,14.8
+2026-07-14,Green Bowl Cafe (Demo),produce,71.7,48.9,22.8,12.9
+2026-07-14,City Bakery (Demo),bakery,55.7,39.3,16.4,7.7
+2026-07-14,Harvest Market (Demo),grains,121.8,83,38.8,18.6
+2026-07-14,FreshFork Kitchen (Demo),prepared,98.4,72.7,25.7,14.4
+2026-07-15,Green Bowl Cafe (Demo),produce,69.1,48.9,20.2,12.3
+2026-07-15,City Bakery (Demo),bakery,67,45.8,21.2,13.5
+2026-07-15,Harvest Market (Demo),grains,124.4,69.4,55,23.3
+2026-07-15,FreshFork Kitchen (Demo),prepared,88.4,59.9,28.5,18.9
+2026-07-16,Green Bowl Cafe (Demo),produce,76.9,55.3,21.6,14
+2026-07-16,City Bakery (Demo),bakery,62.2,40.2,22,11.7
+2026-07-16,Harvest Market (Demo),grains,125.5,90.3,35.2,13.3
+2026-07-16,FreshFork Kitchen (Demo),prepared,108.6,69.5,39.1,28.7
+2026-07-17,Green Bowl Cafe (Demo),produce,75.2,48.8,26.4,18.8
+2026-07-17,City Bakery (Demo),bakery,76.6,53.2,23.4,15.8
+2026-07-17,Harvest Market (Demo),grains,141.8,106.3,35.5,28.9
+2026-07-17,FreshFork Kitchen (Demo),prepared,101.3,64.3,37,18.9
+2026-07-18,Green Bowl Cafe (Demo),produce,88.6,76.5,12.1,7.2
+2026-07-18,City Bakery (Demo),bakery,79.5,64.5,15,2
+2026-07-18,Harvest Market (Demo),grains,129.8,99.2,30.6,18.2
+2026-07-18,FreshFork Kitchen (Demo),prepared,102.2,80.4,21.8,13.8
+2026-07-19,Green Bowl Cafe (Demo),produce,96.1,81.7,14.4,5.1
+2026-07-19,City Bakery (Demo),bakery,75.3,61,14.3,7
+2026-07-19,Harvest Market (Demo),grains,126.8,92.3,34.5,16.6
+2026-07-19,FreshFork Kitchen (Demo),prepared,115.1,88.7,26.4,14.1
+2026-07-20,Green Bowl Cafe (Demo),produce,77,51.5,25.5,11.6
+2026-07-20,City Bakery (Demo),bakery,68.9,50.5,18.4,13.9
+2026-07-20,Harvest Market (Demo),grains,121.2,78.4,42.8,37.3
+2026-07-20,FreshFork Kitchen (Demo),prepared,91.9,51.3,40.6,21.8
+2026-07-21,Green Bowl Cafe (Demo),produce,71.1,47.7,23.4,17.2
+2026-07-21,City Bakery (Demo),bakery,58.5,37.9,20.6,14
+2026-07-21,Harvest Market (Demo),grains,119.1,73.5,45.6,28.6
+2026-07-21,FreshFork Kitchen (Demo),prepared,96.8,67.1,29.7,11.9
+2026-07-22,Green Bowl Cafe (Demo),produce,67.6,46.5,21.1,8.9
+2026-07-22,City Bakery (Demo),bakery,66.7,48.1,18.6,14.3
+2026-07-22,Harvest Market (Demo),grains,119.5,73.9,45.6,29.1
+2026-07-22,FreshFork Kitchen (Demo),prepared,87.3,63.8,23.5,9.8
+2026-07-23,Green Bowl Cafe (Demo),produce,82.2,53.3,28.9,13.2
+2026-07-23,City Bakery (Demo),bakery,51.4,35.8,15.6,8.1
+2026-07-23,Harvest Market (Demo),grains,103.4,62,41.4,28.5
+2026-07-23,FreshFork Kitchen (Demo),prepared,81.9,57.5,24.4,16.7
+2026-07-24,Green Bowl Cafe (Demo),produce,61.7,47.5,14.2,7.6
+2026-07-24,City Bakery (Demo),bakery,59.5,41.7,17.8,8.6
+2026-07-24,Harvest Market (Demo),grains,125.9,93,32.9,19.4
+2026-07-24,FreshFork Kitchen (Demo),prepared,101.8,69.8,32,15.8
+2026-07-25,Green Bowl Cafe (Demo),produce,86,70.4,15.6,10.5
+2026-07-25,City Bakery (Demo),bakery,75.4,61.9,13.5,10.3
+2026-07-25,Harvest Market (Demo),grains,133.5,99.3,34.2,16.6
+2026-07-25,FreshFork Kitchen (Demo),prepared,90.8,62.6,28.2,19.1
+2026-07-26,Green Bowl Cafe (Demo),produce,89.6,74.1,15.5,11
+2026-07-26,City Bakery (Demo),bakery,83.1,61.6,21.5,14
+2026-07-26,Harvest Market (Demo),grains,130.3,111.8,18.5,7.4
+2026-07-26,FreshFork Kitchen (Demo),prepared,94.3,74.7,19.6,12.3
+2026-07-27,Green Bowl Cafe (Demo),produce,75.6,50.7,24.9,14.4
+2026-07-27,City Bakery (Demo),bakery,66.1,43.4,22.7,10
+2026-07-27,Harvest Market (Demo),grains,116.6,75,41.6,23.5
+2026-07-27,FreshFork Kitchen (Demo),prepared,93.6,64.7,28.9,18.2
+2026-07-28,Green Bowl Cafe (Demo),produce,79.5,50.4,29.1,18.6
+2026-07-28,City Bakery (Demo),bakery,62.1,40.4,21.7,12.7
+2026-07-28,Harvest Market (Demo),grains,126.8,84.7,42.1,19.3
+2026-07-28,FreshFork Kitchen (Demo),prepared,100.1,67.2,32.9,22.8
+2026-07-29,Green Bowl Cafe (Demo),produce,80.8,56.6,24.2,18
+2026-07-29,City Bakery (Demo),bakery,67.9,49.1,18.8,7.3
+2026-07-29,Harvest Market (Demo),grains,111,72.7,38.3,11.6
+2026-07-29,FreshFork Kitchen (Demo),prepared,88.7,63.4,25.3,11.9
+2026-07-30,Green Bowl Cafe (Demo),produce,69.8,44.7,25.1,12.2
+2026-07-30,City Bakery (Demo),bakery,60.7,43.2,17.5,10.6
+2026-07-30,Harvest Market (Demo),grains,130.5,88.5,42,23.9
+2026-07-30,FreshFork Kitchen (Demo),prepared,101,70.8,30.2,22
+2026-07-31,Green Bowl Cafe (Demo),produce,83,50.1,32.9,13.5
+2026-07-31,City Bakery (Demo),bakery,72.1,47.9,24.2,13.9
+2026-07-31,Harvest Market (Demo),grains,115.3,73.9,41.4,24.6
+2026-07-31,FreshFork Kitchen (Demo),prepared,83.1,55,28.1,11.6
+2026-08-01,Green Bowl Cafe (Demo),produce,88.7,62.5,26.2,14.9
+2026-08-01,City Bakery (Demo),bakery,72.9,56.5,16.4,6.9
+2026-08-01,Harvest Market (Demo),grains,116.8,86.6,30.2,21.7
+2026-08-01,FreshFork Kitchen (Demo),prepared,97.4,64.8,32.6,24.4
+2026-08-02,Green Bowl Cafe (Demo),produce,95,74.7,20.3,13.5
+2026-08-02,City Bakery (Demo),bakery,88.2,64,24.2,12.5
+2026-08-02,Harvest Market (Demo),grains,113.3,89.5,23.8,8
+2026-08-02,FreshFork Kitchen (Demo),prepared,101.9,72,29.9,19.4
+2026-08-03,Green Bowl Cafe (Demo),produce,79.6,52.8,26.8,18.1
+2026-08-03,City Bakery (Demo),bakery,69.6,46.1,23.5,12.4
+2026-08-03,Harvest Market (Demo),grains,127,99.5,27.5,12.7
+2026-08-03,FreshFork Kitchen (Demo),prepared,81.4,53,28.4,18.2
+2026-08-04,Green Bowl Cafe (Demo),produce,88.9,58.8,30.1,17.3
+2026-08-04,City Bakery (Demo),bakery,67.2,47.3,19.9,10.9
+2026-08-04,Harvest Market (Demo),grains,105.7,74.4,31.3,19
+2026-08-04,FreshFork Kitchen (Demo),prepared,95,56.1,38.9,28.1
+2026-08-05,Green Bowl Cafe (Demo),produce,78,56.7,21.3,14.6
+2026-08-05,City Bakery (Demo),bakery,74.3,53.3,21,8.5
+2026-08-05,Harvest Market (Demo),grains,122.4,91.3,31.1,21.2
+2026-08-05,FreshFork Kitchen (Demo),prepared,84.9,59.2,25.7,11.7
+2026-08-06,Green Bowl Cafe (Demo),produce,72.5,50.4,22.1,10.5
+2026-08-06,City Bakery (Demo),bakery,70.1,46.9,23.2,17.2
+2026-08-06,Harvest Market (Demo),grains,120.4,87.5,32.9,17.6
+2026-08-06,FreshFork Kitchen (Demo),prepared,79.2,57.3,21.9,15.1
+2026-08-07,Green Bowl Cafe (Demo),produce,86.2,65.8,20.4,11.2
+2026-08-07,City Bakery (Demo),bakery,52.4,32.8,19.6,12.5
+2026-08-07,Harvest Market (Demo),grains,111.1,67.2,43.9,21.9
+2026-08-07,FreshFork Kitchen (Demo),prepared,87.5,62.4,25.1,7.3
+2026-08-08,Green Bowl Cafe (Demo),produce,90.3,70.4,19.9,10
+2026-08-08,City Bakery (Demo),bakery,74,54.3,19.7,9.9
+2026-08-08,Harvest Market (Demo),grains,130.3,102.7,27.6,12
+2026-08-08,FreshFork Kitchen (Demo),prepared,100.6,74.7,25.9,12.8
+2026-08-09,Green Bowl Cafe (Demo),produce,93.4,65.1,28.3,14.9
+2026-08-09,City Bakery (Demo),bakery,86.8,61.7,25.1,14.5
+2026-08-09,Harvest Market (Demo),grains,128.2,90.6,37.6,32.7
+2026-08-09,FreshFork Kitchen (Demo),prepared,102.2,82.4,19.8,9
+2026-08-10,Green Bowl Cafe (Demo),produce,72.7,49.3,23.4,13.6
+2026-08-10,City Bakery (Demo),bakery,50.8,38,12.8,11.1
+2026-08-10,Harvest Market (Demo),grains,116.2,83.6,32.6,10.2
+2026-08-10,FreshFork Kitchen (Demo),prepared,80.1,54.6,25.5,18.9
+2026-08-11,Green Bowl Cafe (Demo),produce,74.6,46.7,27.9,14
+2026-08-11,City Bakery (Demo),bakery,66.5,46,20.5,11.7
+2026-08-11,Harvest Market (Demo),grains,110.6,75,35.6,19.6
+2026-08-11,FreshFork Kitchen (Demo),prepared,92,62.5,29.5,13.2
+2026-08-12,Green Bowl Cafe (Demo),produce,72.6,51.3,21.3,9.6
+2026-08-12,City Bakery (Demo),bakery,50.4,34.3,16.1,8.1
+2026-08-12,Harvest Market (Demo),grains,110.9,74.5,36.4,22.7
+2026-08-12,FreshFork Kitchen (Demo),prepared,83.5,59.7,23.8,12
+2026-08-13,Green Bowl Cafe (Demo),produce,75.8,56.8,19,10.5
+2026-08-13,City Bakery (Demo),bakery,64.3,43.6,20.7,13.5
+2026-08-13,Harvest Market (Demo),grains,122.9,78,44.9,22.9
+2026-08-13,FreshFork Kitchen (Demo),prepared,83.1,49.3,33.8,16.8
+2026-08-14,Green Bowl Cafe (Demo),produce,74.8,49.6,25.2,14.3
+2026-08-14,City Bakery (Demo),bakery,63.1,48.2,14.9,9.9
+2026-08-14,Harvest Market (Demo),grains,112.2,70.7,41.5,21
+2026-08-14,FreshFork Kitchen (Demo),prepared,92.9,65.3,27.6,17.8
+2026-08-15,Green Bowl Cafe (Demo),produce,82.7,62.9,19.8,17.8
+2026-08-15,City Bakery (Demo),bakery,83.2,64.8,18.4,12.7
+2026-08-15,Harvest Market (Demo),grains,131.3,103.6,27.7,14
+2026-08-15,FreshFork Kitchen (Demo),prepared,101.9,77.5,24.4,10.7
+2026-08-16,Green Bowl Cafe (Demo),produce,84,62,22,11.3
+2026-08-16,City Bakery (Demo),bakery,79.5,67.4,12.1,5.7
+2026-08-16,Harvest Market (Demo),grains,122.4,98.2,24.2,18.5
+2026-08-16,FreshFork Kitchen (Demo),prepared,104.4,82.4,22,14.6
+2026-08-17,Green Bowl Cafe (Demo),produce,69.2,45.4,23.8,18.9
+2026-08-17,City Bakery (Demo),bakery,67.9,45.3,22.6,10.3
+2026-08-17,Harvest Market (Demo),grains,106.5,70.9,35.6,24
+2026-08-17,FreshFork Kitchen (Demo),prepared,87.9,61.7,26.2,8.9
+2026-08-18,Green Bowl Cafe (Demo),produce,81.4,55.5,25.9,11.7
+2026-08-18,City Bakery (Demo),bakery,54,36.4,17.6,14
+2026-08-18,Harvest Market (Demo),grains,111.9,81.6,30.3,15.6
+2026-08-18,FreshFork Kitchen (Demo),prepared,94.9,59.2,35.7,22.9
+2026-08-19,Green Bowl Cafe (Demo),produce,81,56.5,24.5,12.8
+2026-08-19,City Bakery (Demo),bakery,64.1,40.7,23.4,11.4
+2026-08-19,Harvest Market (Demo),grains,111.9,76.6,35.3,22.4
+2026-08-19,FreshFork Kitchen (Demo),prepared,90.5,60.2,30.3,9
+2026-08-20,Green Bowl Cafe (Demo),produce,83,53.2,29.8,17.4
+2026-08-20,City Bakery (Demo),bakery,53.1,36.3,16.8,8
+2026-08-20,Harvest Market (Demo),grains,116.8,72.6,44.2,21.6
+2026-08-20,FreshFork Kitchen (Demo),prepared,88.1,57.3,30.8,14
+2026-08-21,Green Bowl Cafe (Demo),produce,75,54.8,20.2,10.7
+2026-08-21,City Bakery (Demo),bakery,46.7,36.6,10.1,4.4
+2026-08-21,Harvest Market (Demo),grains,113.2,71.6,41.6,17.1
+2026-08-21,FreshFork Kitchen (Demo),prepared,94.6,73.2,21.4,9.9
+2026-08-22,Green Bowl Cafe (Demo),produce,85.5,62.5,23,14.7
+2026-08-22,City Bakery (Demo),bakery,92.1,70.1,22,11.8
+2026-08-22,Harvest Market (Demo),grains,124.2,89.1,35.1,26.2
+2026-08-22,FreshFork Kitchen (Demo),prepared,95.1,75.5,19.6,11.2
+2026-08-23,Green Bowl Cafe (Demo),produce,80,60.7,19.3,9.8
+2026-08-23,City Bakery (Demo),bakery,79,62.9,16.1,9
+2026-08-23,Harvest Market (Demo),grains,114.2,90.4,23.8,16.1
+2026-08-23,FreshFork Kitchen (Demo),prepared,98.4,71.6,26.8,13.1
+2026-08-24,Green Bowl Cafe (Demo),produce,81.1,62.8,18.3,11.6
+2026-08-24,City Bakery (Demo),bakery,65.2,37.6,27.6,12.1
+2026-08-24,Harvest Market (Demo),grains,103.5,70.7,32.8,19
+2026-08-24,FreshFork Kitchen (Demo),prepared,103.1,70.7,32.4,18.7
+2026-08-25,Green Bowl Cafe (Demo),produce,66.9,51.1,15.8,13.4
+2026-08-25,City Bakery (Demo),bakery,53.7,37.4,16.3,7.6
+2026-08-25,Harvest Market (Demo),grains,112.1,78,34.1,19.8
+2026-08-25,FreshFork Kitchen (Demo),prepared,91.4,57.4,34,16.5
+2026-08-26,Green Bowl Cafe (Demo),produce,86.4,57,29.4,13.1
+2026-08-26,City Bakery (Demo),bakery,49.3,33.5,15.8,12.6
+2026-08-26,Harvest Market (Demo),grains,98.8,68.2,30.6,21.5
+2026-08-26,FreshFork Kitchen (Demo),prepared,84.5,61,23.5,15
+2026-08-27,Green Bowl Cafe (Demo),produce,75.4,50.4,25,15.6
+2026-08-27,City Bakery (Demo),bakery,70.6,48.9,21.7,8.8
+2026-08-27,Harvest Market (Demo),grains,114.2,83.8,30.4,14.9
+2026-08-27,FreshFork Kitchen (Demo),prepared,87.3,64,23.3,11.1
+2026-08-28,Green Bowl Cafe (Demo),produce,81,58.8,22.2,13.6
+2026-08-28,City Bakery (Demo),bakery,56.1,38.1,18,15.5
+2026-08-28,Harvest Market (Demo),grains,103.5,64.5,39,16.1
+2026-08-28,FreshFork Kitchen (Demo),prepared,90.6,54.4,36.2,13.4
+2026-08-29,Green Bowl Cafe (Demo),produce,95.1,72.4,22.7,10.7
+2026-08-29,City Bakery (Demo),bakery,84.5,67.2,17.3,12
+2026-08-29,Harvest Market (Demo),grains,129.8,110.4,19.4,12.4
+2026-08-29,FreshFork Kitchen (Demo),prepared,106.6,85,21.6,16.6
+2026-08-30,Green Bowl Cafe (Demo),produce,83.5,62.8,20.7,10.7
+2026-08-30,City Bakery (Demo),bakery,89.5,70.7,18.8,8.5
+2026-08-30,Harvest Market (Demo),grains,119.9,96.2,23.7,9.8
+2026-08-30,FreshFork Kitchen (Demo),prepared,110.3,81.1,29.2,19
+2026-08-31,Green Bowl Cafe (Demo),produce,76.4,54.8,21.6,14.1
+2026-08-31,City Bakery (Demo),bakery,46.8,35.5,11.3,6.9
+2026-08-31,Harvest Market (Demo),grains,101.2,77.5,23.7,12
+2026-08-31,FreshFork Kitchen (Demo),prepared,85.4,50.9,34.5,17.1
+2026-09-01,Green Bowl Cafe (Demo),produce,63,40.9,22.1,9.4
+2026-09-01,City Bakery (Demo),bakery,53.6,37.6,16,8.8
+2026-09-01,Harvest Market (Demo),grains,108.5,73.6,34.9,17.8
+2026-09-01,FreshFork Kitchen (Demo),prepared,90.3,61.5,28.8,18.4
+2026-09-02,Green Bowl Cafe (Demo),produce,70.2,43.5,26.7,15.8
+2026-09-02,City Bakery (Demo),bakery,54.2,39.8,14.4,8.2
+2026-09-02,Harvest Market (Demo),grains,102.1,61.1,41,15.3
+2026-09-02,FreshFork Kitchen (Demo),prepared,97.9,67.3,30.6,17
+2026-09-03,Green Bowl Cafe (Demo),produce,70.6,55.8,14.8,12.9
+2026-09-03,City Bakery (Demo),bakery,65,45,20,8.7
+2026-09-03,Harvest Market (Demo),grains,94.2,64.5,29.7,21.4
+2026-09-03,FreshFork Kitchen (Demo),prepared,86,55.6,30.4,7.7
+2026-09-04,Green Bowl Cafe (Demo),produce,64.9,42.8,22.1,16.3
+2026-09-04,City Bakery (Demo),bakery,42.8,29.4,13.4,7.2
+2026-09-04,Harvest Market (Demo),grains,102,73.4,28.6,22.5
+2026-09-04,FreshFork Kitchen (Demo),prepared,89.2,57.7,31.5,21.9
+2026-09-05,Green Bowl Cafe (Demo),produce,83.3,67.3,16,10.5
+2026-09-05,City Bakery (Demo),bakery,66.6,51.6,15,10.8
+2026-09-05,Harvest Market (Demo),grains,135.8,97.8,38,23.6
+2026-09-05,FreshFork Kitchen (Demo),prepared,102.6,82.7,19.9,11.9
+2026-09-06,Green Bowl Cafe (Demo),produce,83.9,63.4,20.5,7.7
+2026-09-06,City Bakery (Demo),bakery,70.8,54.3,16.5,9.5
+2026-09-06,Harvest Market (Demo),grains,119.6,96.8,22.8,14.7
+2026-09-06,FreshFork Kitchen (Demo),prepared,104.8,86,18.8,13.5
+2026-09-07,Green Bowl Cafe (Demo),produce,69.6,52.3,17.3,7.8
+2026-09-07,City Bakery (Demo),bakery,54.1,39.8,14.3,7
+2026-09-07,Harvest Market (Demo),grains,105.3,66.2,39.1,25.6
+2026-09-07,FreshFork Kitchen (Demo),prepared,106.1,67,39.1,20
+2026-09-08,Green Bowl Cafe (Demo),produce,66.9,49.1,17.8,12
+2026-09-08,City Bakery (Demo),bakery,54.7,34.5,20.2,9.5
+2026-09-08,Harvest Market (Demo),grains,93.2,63.2,30,20.5
+2026-09-08,FreshFork Kitchen (Demo),prepared,111.7,69.4,42.3,27.8
+2026-09-09,Green Bowl Cafe (Demo),produce,72.2,49.7,22.5,13.5
+2026-09-09,City Bakery (Demo),bakery,61.3,44.8,16.5,9.1
+2026-09-09,Harvest Market (Demo),grains,107.6,71.1,36.5,28.2
+2026-09-09,FreshFork Kitchen (Demo),prepared,97.9,63,34.9,17
+2026-09-10,Green Bowl Cafe (Demo),produce,67.6,44.3,23.3,10
+2026-09-10,City Bakery (Demo),bakery,39.6,28.9,10.7,6.1
+2026-09-10,Harvest Market (Demo),grains,114.9,81.1,33.8,16.4
+2026-09-10,FreshFork Kitchen (Demo),prepared,85.8,60,25.8,11.6
+2026-09-11,Green Bowl Cafe (Demo),produce,74.9,52.9,22,9
+2026-09-11,City Bakery (Demo),bakery,36.3,25.3,11,4.8
+2026-09-11,Harvest Market (Demo),grains,118.1,85.9,32.2,16.6
+2026-09-11,FreshFork Kitchen (Demo),prepared,101.5,76.2,25.3,16.9
+2026-09-12,Green Bowl Cafe (Demo),produce,85.4,57.2,28.2,11.6
+2026-09-12,City Bakery (Demo),bakery,63.9,51.3,12.6,5.8
+2026-09-12,Harvest Market (Demo),grains,121.8,86.6,35.2,21.2
+2026-09-12,FreshFork Kitchen (Demo),prepared,108.3,83.8,24.5,12.3
+2026-09-13,Green Bowl Cafe (Demo),produce,83.7,62.6,21.1,15.2
+2026-09-13,City Bakery (Demo),bakery,65.9,54.8,11.1,7.3
+2026-09-13,Harvest Market (Demo),grains,122.7,88.3,34.4,16.4
+2026-09-13,FreshFork Kitchen (Demo),prepared,113.7,96.1,17.6,9.9
+2026-09-14,Green Bowl Cafe (Demo),produce,59.2,41.6,17.6,12.4
+2026-09-14,City Bakery (Demo),bakery,47.2,27.4,19.8,12.4
+2026-09-14,Harvest Market (Demo),grains,125.6,84.3,41.3,18.5
+2026-09-14,FreshFork Kitchen (Demo),prepared,93.5,61.9,31.6,19.8
+2026-09-15,Green Bowl Cafe (Demo),produce,66.5,41.2,25.3,14.5
+2026-09-15,City Bakery (Demo),bakery,45.5,28.9,16.6,9.1
+2026-09-15,Harvest Market (Demo),grains,107.5,65,42.5,30.1
+2026-09-15,FreshFork Kitchen (Demo),prepared,96.6,59.8,36.8,14.9
+2026-09-16,Green Bowl Cafe (Demo),produce,70.7,50,20.7,14.4
+2026-09-16,City Bakery (Demo),bakery,50.4,34.7,15.7,8.8
+2026-09-16,Harvest Market (Demo),grains,114.4,74.9,39.5,24.4
+2026-09-16,FreshFork Kitchen (Demo),prepared,105.4,73.6,31.8,15.8
+2026-09-17,Green Bowl Cafe (Demo),produce,59.9,45.4,14.5,10.3
+2026-09-17,City Bakery (Demo),bakery,38.5,25,13.5,7.8
+2026-09-17,Harvest Market (Demo),grains,115.8,78.3,37.5,13.1
+2026-09-17,FreshFork Kitchen (Demo),prepared,98.6,63.7,34.9,16.3
+2026-09-18,Green Bowl Cafe (Demo),produce,63.7,42.5,21.2,13.3
+2026-09-18,City Bakery (Demo),bakery,53,35.5,17.5,7.7
+2026-09-18,Harvest Market (Demo),grains,109.9,69.1,40.8,22.8
+2026-09-18,FreshFork Kitchen (Demo),prepared,92.8,62.8,30,17.3
+2026-09-19,Green Bowl Cafe (Demo),produce,62.9,49.7,13.2,8.5
+2026-09-19,City Bakery (Demo),bakery,61.8,44.8,17,7.5
+2026-09-19,Harvest Market (Demo),grains,128.9,104.5,24.4,10
+2026-09-19,FreshFork Kitchen (Demo),prepared,114.5,87.8,26.7,15.9
+2026-09-20,Green Bowl Cafe (Demo),produce,69.8,49.4,20.4,10.8
+2026-09-20,City Bakery (Demo),bakery,72.4,59.9,12.5,8.4
+2026-09-20,Harvest Market (Demo),grains,134.2,110.1,24.1,16.7
+2026-09-20,FreshFork Kitchen (Demo),prepared,108.3,76.9,31.4,20.2
+2026-09-21,Green Bowl Cafe (Demo),produce,63.8,41.4,22.4,14.4
+2026-09-21,City Bakery (Demo),bakery,52.3,35.7,16.6,5
+2026-09-21,Harvest Market (Demo),grains,122.4,77.1,45.3,13
+2026-09-21,FreshFork Kitchen (Demo),prepared,94.7,58.8,35.9,23.2
+2026-09-22,Green Bowl Cafe (Demo),produce,62.3,43.2,19.1,13.7
+2026-09-22,City Bakery (Demo),bakery,50.5,34.1,16.4,5.8
+2026-09-22,Harvest Market (Demo),grains,127.6,79.1,48.5,26
+2026-09-22,FreshFork Kitchen (Demo),prepared,99.9,71.5,28.4,10.3
+2026-09-23,Green Bowl Cafe (Demo),produce,60.3,38.5,21.8,13.4
+2026-09-23,City Bakery (Demo),bakery,53.6,32,21.6,10
+2026-09-23,Harvest Market (Demo),grains,118,70.2,47.8,20.2
+2026-09-23,FreshFork Kitchen (Demo),prepared,108.7,63.6,45.1,38.4
+2026-09-24,Green Bowl Cafe (Demo),produce,68,42.3,25.7,12.2
+2026-09-24,City Bakery (Demo),bakery,52.5,36.8,15.7,6.5
+2026-09-24,Harvest Market (Demo),grains,107.1,74.1,33,18.9
+2026-09-24,FreshFork Kitchen (Demo),prepared,103.7,60.3,43.4,33.7
+2026-09-25,Green Bowl Cafe (Demo),produce,69.8,51.3,18.5,14.1
+2026-09-25,City Bakery (Demo),bakery,53.4,35.4,18,12.1
+2026-09-25,Harvest Market (Demo),grains,122.8,81.3,41.5,26
+2026-09-25,FreshFork Kitchen (Demo),prepared,102.4,71.8,30.6,15.7
+2026-09-26,Green Bowl Cafe (Demo),produce,63,53.9,9.1,4.4
+2026-09-26,City Bakery (Demo),bakery,70.4,52.1,18.3,12.1
+2026-09-26,Harvest Market (Demo),grains,112.5,91.4,21.1,9.4
+2026-09-26,FreshFork Kitchen (Demo),prepared,109.4,89.4,20,12.6
+2026-09-27,Green Bowl Cafe (Demo),produce,74,58.5,15.5,10.2
+2026-09-27,City Bakery (Demo),bakery,70.6,56.5,14.1,8.5
+2026-09-27,Harvest Market (Demo),grains,126.8,95.7,31.1,13.2
+2026-09-27,FreshFork Kitchen (Demo),prepared,94.3,69.4,24.9,11
+2026-09-28,Green Bowl Cafe (Demo),produce,55.6,39.2,16.4,5.9
+2026-09-28,City Bakery (Demo),bakery,58.5,37.2,21.3,7.8
+2026-09-28,Harvest Market (Demo),grains,111.8,77.3,34.5,15.2
+2026-09-28,FreshFork Kitchen (Demo),prepared,91.6,69.4,22.2,10.5
+2026-09-29,Green Bowl Cafe (Demo),produce,58.5,42.3,16.2,10
+2026-09-29,City Bakery (Demo),bakery,55.2,37.6,17.6,6.2
+2026-09-29,Harvest Market (Demo),grains,111.8,72.2,39.6,19.1
+2026-09-29,FreshFork Kitchen (Demo),prepared,105.5,75.6,29.9,15.5
+2026-09-30,Green Bowl Cafe (Demo),produce,61.1,41.1,20,10.9
+2026-09-30,City Bakery (Demo),bakery,53.8,35.9,17.9,15.1
+2026-09-30,Harvest Market (Demo),grains,116.9,75.7,41.2,12.1
+2026-09-30,FreshFork Kitchen (Demo),prepared,110.8,76.8,34,22.3
+2026-10-01,Green Bowl Cafe (Demo),produce,73.4,46.7,26.7,19.7
+2026-10-01,City Bakery (Demo),bakery,56.5,37.1,19.4,11.3
+2026-10-01,Harvest Market (Demo),grains,115.2,75.1,40.1,15.3
+2026-10-01,FreshFork Kitchen (Demo),prepared,102.6,67.3,35.3,11.3
+2026-10-02,Green Bowl Cafe (Demo),produce,56.8,40.6,16.2,10.2
+2026-10-02,City Bakery (Demo),bakery,49.3,37.8,11.5,7.1
+2026-10-02,Harvest Market (Demo),grains,111,68.8,42.2,9.3
+2026-10-02,FreshFork Kitchen (Demo),prepared,105.2,80.4,24.8,13.4
+2026-10-03,Green Bowl Cafe (Demo),produce,80.8,63.2,17.6,11.4
+2026-10-03,City Bakery (Demo),bakery,72.6,54.4,18.2,9.1
+2026-10-03,Harvest Market (Demo),grains,126.7,110.4,16.3,14.1
+2026-10-03,FreshFork Kitchen (Demo),prepared,114.1,78.2,35.9,16.3
+2026-10-04,Green Bowl Cafe (Demo),produce,73.8,64.4,9.4,3.1
+2026-10-04,City Bakery (Demo),bakery,72,55.1,16.9,11.4
+2026-10-04,Harvest Market (Demo),grains,118.3,88.6,29.7,19.1
+2026-10-04,FreshFork Kitchen (Demo),prepared,111.6,83.4,28.2,12.3
+2026-10-05,Green Bowl Cafe (Demo),produce,58.8,36.9,21.9,13.1
+2026-10-05,City Bakery (Demo),bakery,51.7,34.6,17.1,5.9
+2026-10-05,Harvest Market (Demo),grains,125.4,80.8,44.6,28.1
+2026-10-05,FreshFork Kitchen (Demo),prepared,108.2,73.2,35,20.7
+2026-10-06,Green Bowl Cafe (Demo),produce,50.2,34.1,16.1,10.5
+2026-10-06,City Bakery (Demo),bakery,64.4,41.6,22.8,11.9
+2026-10-06,Harvest Market (Demo),grains,114.1,79.6,34.5,18.2
+2026-10-06,FreshFork Kitchen (Demo),prepared,110.7,75.4,35.3,23
+2026-10-07,Green Bowl Cafe (Demo),produce,63,43.2,19.8,6.9
+2026-10-07,City Bakery (Demo),bakery,54.7,42.8,11.9,3.9
+2026-10-07,Harvest Market (Demo),grains,123.3,76.8,46.5,20.1
+2026-10-07,FreshFork Kitchen (Demo),prepared,97.1,68.5,28.6,20.3
+2026-10-08,Green Bowl Cafe (Demo),produce,67.1,44.5,22.6,11.3
+2026-10-08,City Bakery (Demo),bakery,51.5,35.4,16.1,9.6
+2026-10-08,Harvest Market (Demo),grains,131.9,95.6,36.3,25.1
+2026-10-08,FreshFork Kitchen (Demo),prepared,107.1,70.4,36.7,16.8
+2026-10-09,Green Bowl Cafe (Demo),produce,59.3,42.9,16.4,13.1
+2026-10-09,City Bakery (Demo),bakery,49.7,33.7,16,7.3
+2026-10-09,Harvest Market (Demo),grains,121.8,86.8,35,12.7
+2026-10-09,FreshFork Kitchen (Demo),prepared,93.1,64,29.1,18.2
+2026-10-10,Green Bowl Cafe (Demo),produce,78.9,59,19.9,8.5
+2026-10-10,City Bakery (Demo),bakery,69.5,51.4,18.1,9.2
+2026-10-10,Harvest Market (Demo),grains,133.5,105.2,28.3,10.1
+2026-10-10,FreshFork Kitchen (Demo),prepared,121.5,95.2,26.3,19.4
+2026-10-11,Green Bowl Cafe (Demo),produce,82.7,69.3,13.4,7.3
+2026-10-11,City Bakery (Demo),bakery,71.8,49.3,22.5,13.5
+2026-10-11,Harvest Market (Demo),grains,142.1,117,25.1,14.5
+2026-10-11,FreshFork Kitchen (Demo),prepared,122.2,90.6,31.6,20.6
+2026-10-12,Green Bowl Cafe (Demo),produce,63.5,45.4,18.1,10.9
+2026-10-12,City Bakery (Demo),bakery,63.2,46.3,16.9,9.1
+2026-10-12,Harvest Market (Demo),grains,111.1,72.9,38.2,19
+2026-10-12,FreshFork Kitchen (Demo),prepared,94.9,66.6,28.3,14.6
+2026-10-13,Green Bowl Cafe (Demo),produce,65.4,41.7,23.7,11
+2026-10-13,City Bakery (Demo),bakery,56.1,39,17.1,7.4
+2026-10-13,Harvest Market (Demo),grains,115.4,72.6,42.8,26.1
+2026-10-13,FreshFork Kitchen (Demo),prepared,98.6,65.9,32.7,24.9
+2026-10-14,Green Bowl Cafe (Demo),produce,43.7,31.5,12.2,6.5
+2026-10-14,City Bakery (Demo),bakery,65,42.6,22.4,10.6
+2026-10-14,Harvest Market (Demo),grains,109.1,62.3,46.8,26.4
+2026-10-14,FreshFork Kitchen (Demo),prepared,88.8,56.5,32.3,20.7
+2026-10-15,Green Bowl Cafe (Demo),produce,73.8,45.8,28,20
+2026-10-15,City Bakery (Demo),bakery,50.5,35.1,15.4,6.5
+2026-10-15,Harvest Market (Demo),grains,125.8,90.7,35.1,20.5
+2026-10-15,FreshFork Kitchen (Demo),prepared,101.4,62.8,38.6,18.2
+2026-10-16,Green Bowl Cafe (Demo),produce,64,46.9,17.1,12.4
+2026-10-16,City Bakery (Demo),bakery,64.3,43.1,21.2,11.7
+2026-10-16,Harvest Market (Demo),grains,114.2,76.1,38.1,21.1
+2026-10-16,FreshFork Kitchen (Demo),prepared,99.9,74,25.9,18.7
+2026-10-17,Green Bowl Cafe (Demo),produce,78.5,52.5,26,21.5
+2026-10-17,City Bakery (Demo),bakery,74.7,52.7,22,15.3
+2026-10-17,Harvest Market (Demo),grains,131.1,102.9,28.2,18.1
+2026-10-17,FreshFork Kitchen (Demo),prepared,119.9,102.4,17.5,10.7
+2026-10-18,Green Bowl Cafe (Demo),produce,73.1,54.3,18.8,12.7
+2026-10-18,City Bakery (Demo),bakery,70.5,54.3,16.2,9.8
+2026-10-18,Harvest Market (Demo),grains,124.5,105.5,19,8.8
+2026-10-18,FreshFork Kitchen (Demo),prepared,117,93.1,23.9,15.4
+2026-10-19,Green Bowl Cafe (Demo),produce,74.1,55,19.1,12.2
+2026-10-19,City Bakery (Demo),bakery,56.1,39.2,16.9,8.9
+2026-10-19,Harvest Market (Demo),grains,118.5,83.3,35.2,15
+2026-10-19,FreshFork Kitchen (Demo),prepared,105,75.7,29.3,19.2
+2026-10-20,Green Bowl Cafe (Demo),produce,50.8,34.7,16.1,11.2
+2026-10-20,City Bakery (Demo),bakery,68.7,46.8,21.9,13
+2026-10-20,Harvest Market (Demo),grains,124,73.7,50.3,26.2
+2026-10-20,FreshFork Kitchen (Demo),prepared,89.8,60.6,29.2,21
+2026-10-21,Green Bowl Cafe (Demo),produce,65.2,45.3,19.9,11.8
+2026-10-21,City Bakery (Demo),bakery,51.7,36.9,14.8,8
+2026-10-21,Harvest Market (Demo),grains,104.7,71.7,33,14.9
+2026-10-21,FreshFork Kitchen (Demo),prepared,103.5,69.8,33.7,20.4
+2026-10-22,Green Bowl Cafe (Demo),produce,67,49.9,17.1,11.7
+2026-10-22,City Bakery (Demo),bakery,64.4,46.8,17.6,8.3
+2026-10-22,Harvest Market (Demo),grains,120.2,65.7,54.5,17.9
+2026-10-22,FreshFork Kitchen (Demo),prepared,109.9,77.7,32.2,18.1
+2026-10-23,Green Bowl Cafe (Demo),produce,65,47.1,17.9,10.2
+2026-10-23,City Bakery (Demo),bakery,43.6,33,10.6,5.7
+2026-10-23,Harvest Market (Demo),grains,106.2,74,32.2,25.8
+2026-10-23,FreshFork Kitchen (Demo),prepared,93.2,63.8,29.4,20
+2026-10-24,Green Bowl Cafe (Demo),produce,81.7,62.8,18.9,11
+2026-10-24,City Bakery (Demo),bakery,66.2,52.4,13.8,8.2
+2026-10-24,Harvest Market (Demo),grains,145.9,111.8,34.1,16.3
+2026-10-24,FreshFork Kitchen (Demo),prepared,105.5,75,30.5,26.6
+2026-10-25,Green Bowl Cafe (Demo),produce,66.6,44.1,22.5,13.2
+2026-10-25,City Bakery (Demo),bakery,63.1,50.3,12.8,4.7
+2026-10-25,Harvest Market (Demo),grains,137.5,117,20.5,8.7
+2026-10-25,FreshFork Kitchen (Demo),prepared,112.2,86.3,25.9,16.4
+2026-10-26,Green Bowl Cafe (Demo),produce,64.3,43.1,21.2,14.3
+2026-10-26,City Bakery (Demo),bakery,69.5,45.1,24.4,8.4
+2026-10-26,Harvest Market (Demo),grains,118.8,73.8,45,29
+2026-10-26,FreshFork Kitchen (Demo),prepared,103.3,75.8,27.5,19.9
+2026-10-27,Green Bowl Cafe (Demo),produce,68.2,45.9,22.3,10.3
+2026-10-27,City Bakery (Demo),bakery,71.2,56,15.2,6.7
+2026-10-27,Harvest Market (Demo),grains,125.6,84.1,41.5,22.7
+2026-10-27,FreshFork Kitchen (Demo),prepared,90.9,64.3,26.6,15.5
