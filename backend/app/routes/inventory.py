@@ -13,6 +13,6 @@ def list_inventory(db:Session=Depends(get_db)):
 def create_inventory(payload:InventoryCreate,db:Session=Depends(get_db)):
     if payload.expires_at<=datetime.now(timezone.utc) or payload.pickup_by<=datetime.now(timezone.utc):
         raise HTTPException(422,"Expiry and pickup deadlines must be future dates")
-    item=Inventory(**payload.model_dump(),demo=False)
+    item=Inventory(**payload.model_dump(),demo=True)
     db.add(item);db.flush();db.add(AuditEvent(event_type='inventory_created',entity_type='inventory',entity_id=item.id,quantity_kg=item.quantity_kg,demo=True));db.commit();db.refresh(item)
     return item
