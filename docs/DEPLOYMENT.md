@@ -47,6 +47,10 @@ Never configure a public frontend with the shared API key. The React UI remains 
 
 An RS256 JWT identity verifier with issuer/audience/time validation and a tenant-scoped **mock partner-review checklist** are now implemented for internal testing. See [Identity and pilot reviews](IDENTITY_AND_PILOT_REVIEWS.md). Authentic users require an external identity provider; production writes remain disabled, and operational inventory is not tenant scoped.
 
+## Evidence-backed staging verification
+
+A [temporary PostgreSQL CI job](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756) provisions a disposable PostgreSQL 17 container, applies both Alembic revisions, verifies foreign-key and mock-review constraints, and replays the migrations. This proves a fresh PostgreSQL schema path, not independently reviewed real data or public hosting. The authenticated pilot-review sandbox uses signed RS256 JWTs and remains separate from operational inventory; see [identity limitations](IDENTITY_AND_PILOT_REVIEWS.md).
+
 ## Production release gates
 
 1. Independently verify donor and recipient registration, formal consent, authority to collect, trained handlers and distribution operations.

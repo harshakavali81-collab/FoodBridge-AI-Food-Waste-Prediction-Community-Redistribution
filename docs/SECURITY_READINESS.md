@@ -28,3 +28,7 @@ For confidential vulnerability reports, use GitHub's private vulnerability repor
 ## Additional cryptographic identity demo (2026-10-28)
 
 A non-operational, tenant-scoped review sandbox validates RS256 JWT signatures and issuer/audience/time claims, enforces demo roles and tenant scoping on `pilot_reviews`, and requires two distinct reviewers for an all-checks-complete simulation. See [identity and pilot reviews](IDENTITY_AND_PILOT_REVIEWS.md). Production writes remain disabled, and legacy inventory/donation tables are **not tenant-scoped**. Token validation alone does not constitute a production identity system.
+
+## Verified disposable PostgreSQL schema checks (2026-10-28)
+
+[GitHub CI run](https://github.com/harshakavali81-collab/FoodBridge-AI-Food-Waste-Prediction-Community-Redistribution/actions/runs/40654758756) passed PostgreSQL 17 service tests against initial + second Alembic migrations, tenant-review uniqueness, and donation foreign keys. The integration test intentionally triggers a duplicate-key rejection and confirms the database enforces it. This is isolated CI evidence, **not** an audited production database or row-level security for donations.
